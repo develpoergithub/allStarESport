@@ -1,0 +1,1003 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #0d1a22;
+}
+.carousel-item {
+  /* height: 100vh; */
+  height: 100%;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.carousel-caption {
+  bottom: 270px;
+}
+
+.carousel-caption h5 {
+  font-size: 45px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-top: 25px;
+}
+
+.carousel-caption p {
+  width: 75%;
+  margin: auto;
+  font-size: 18px;
+  line-height: 1.9;
+}
+
+.navbar-light .navbar-brand {
+  color: #fff;
+  font-size: 25px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show > .nav-link {
+  color: #fff;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #fff;
+}
+
+.navbar-toggler {
+  background: #fff;
+}
+
+.navbar-nav {
+  text-align: center;
+}
+
+.nav-link {
+  padding: 0.2rem 1rem;
+}
+
+.nav-link.active,
+.nav-link:focus {
+  color: #fff;
+}
+
+.navbar-toggler {
+  padding: 1px 5px;
+  font-size: 18px;
+  line-height: 0.3;
+}
+
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #fff;
+}
+
+/* ignore the code below */
+
+.link-area {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  padding: 15px;
+  border-radius: 40px;
+  background: tomato;
+}
+.link-area a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 25px;
+}
+.clearHeader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+
+  -webkit-transition: background 2s; /* For Safari 3.1 to 6.0 */
+  transition: background 2s;
+}
+
+.clearHeader.darkHeader {
+  background: #223545;
+}
+a.nav-link {
+  font-size: 24px;
+  margin-right: 50px;
+}
+.tournament-nav::before {
+  content: "";
+  background-image: url(../images/tournament.png);
+  background-repeat: no-repeat;
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  top: -40px;
+  left: 70px;
+}
+.tournament-nav,
+.leaderboard-nav,
+.teams-nav,
+.hubs-nav {
+  position: relative;
+}
+.hubs-nav {
+  color: #00c6ff !important;
+}
+
+.leaderboard-nav::before {
+  content: "";
+  background-image: url(../images/leaderboard.png);
+  background-repeat: no-repeat;
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  top: -40px;
+  left: 70px;
+}
+.leaderboard-nav::before {
+  content: "";
+  background-image: url(../images/leaderboard.png);
+  background-repeat: no-repeat;
+  height: 50px;
+  width: 90px;
+  position: absolute;
+  top: -40px;
+  left: 70px;
+}
+.teams-nav::before {
+  content: "";
+  background-image: url(../images/teams.png);
+  background-repeat: no-repeat;
+  height: 50px;
+  width: 66px;
+  position: absolute;
+  top: -40px;
+  left: 16px;
+}
+.hubs-nav::before {
+  content: "";
+  background-image: url(../images/hub-plus.png);
+  background-repeat: no-repeat;
+  height: 50px;
+  width: 66px;
+  position: absolute;
+  top: -40px;
+  left: 42px;
+}
+a.nav-link {
+  margin-top: 30px;
+}
+ul.navbar-nav {
+  margin-left: 250px;
+}
+
+.login-nav {
+  border: 1px solid #00c3ff;
+  border-radius: 10px;
+  background-image: linear-gradient(to right, #1472de, #00c3ff);
+  color: white;
+  margin-top: 0 !important;
+  margin-left: 110px;
+  margin-right: 0 !important;
+  width: 165px;
+}
+.login-nav:hover {
+  color: #ffff;
+}
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1520px;
+  }
+}
+.carousel-caption {
+  text-align: left;
+  top: 20%;
+  max-width: 760px;
+}
+.text-uppercase.banner-heading {
+  font-size: 69px;
+  font-weight: 800;
+  margin-bottom: 40px;
+}
+
+.blue {
+  background-image: linear-gradient(to right, #1472de, #00c3ff);
+}
+.banner-btn {
+  border-radius: 10px;
+  background-image: linear-gradient(to right, #1472de, #00c3ff);
+  padding: 12px 18px;
+  color: white;
+  font-size: 23px;
+  font-weight: 700;
+}
+
+.banner-btn:hover {
+  color: white;
+  text-decoration: none;
+}
+i.fa.fa-user-circle-o {
+  background-image: linear-gradient(to right, #1472de, #00c3ff);
+  border-radius: 50%;
+  margin-left: 10px;
+}
+.carousel-control-next,
+.carousel-control-prev {
+  position: relative;
+}
+
+/* Time up page Start */
+
+.team-up-container {
+  color: white;
+  max-width: 610px;
+  background-color: #182a3a;
+  text-align: center;
+  margin: 0 auto;
+  /* margin-top: 15%; */
+  padding: 0px;
+  border-radius: 10px;
+}
+
+.team-up-container .row {
+  max-width: 700px;
+  margin: 0 auto;
+}
+.row-role-background-gradient {
+  max-width: 750px !important;
+}
+
+.team-up-container .row h3 {
+  margin-top: 30px;
+  font-size: 54px;
+  font-weight: 800;
+}
+
+.team-up-container .row p {
+  max-width: 412px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  margin-top: 12px;
+}
+.search-team {
+  border: 1px solid white;
+  border-radius: 20px;
+  background-color: transparent;
+  text-align: center;
+  color: white;
+  width: 70%;
+  margin: 0 auto;
+  height: 44px;
+}
+.continue-btn {
+  border-radius: 20px;
+  text-align: center;
+  color: black;
+  width: 70%;
+  margin: 0 auto;
+  height: 44px;
+  background-image: linear-gradient(to right, #8df4ae, #69b8f9);
+  margin-bottom: 50px;
+}
+.continue-btn:hover {
+  color: black;
+}
+
+.search-team:focus {
+  color: white;
+  border-color: white;
+  background-color: transparent;
+  box-shadow: none;
+}
+.player-team,
+.coach-team {
+  border: 1px solid #707070;
+  border-radius: 20px;
+  background-color: black;
+  text-align: center;
+  color: white;
+  width: 70%;
+  margin: 0 auto;
+  height: 44px;
+}
+.player-team::placeholder,
+.coach-team::placeholder {
+  color: white;
+}
+.time-text {
+  max-width: 465px;
+}
+
+/* test */
+
+.nopad {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+/*image gallery*/
+.image-checkbox {
+  cursor: pointer;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  /* border: 4px solid transparen t; */
+  margin-bottom: 0;
+  outline: 0;
+}
+.image-checkbox input[type="checkbox"] {
+  display: none;
+}
+
+/* .image-checkbox-checked {
+  border-color: #4783b0;
+} */
+/* .image-checkbox .fa {
+  position: absolute;
+  color: #4a79a3;
+  background-color: #fff;
+  padding: 10px;
+  top: 0;
+  right: 0;
+} */
+.image-checkbox-checked .fa {
+  transition: all 0.5s ease 0.85ms !important;
+
+  display: block !important;
+}
+.image-checkbox-checked .check-img {
+  border: 3px solid #01bcfc;
+  border-radius: 30px;
+  transform: scale(1.01) !important;
+}
+.play-check-container {
+  color: white;
+  max-width: 1021px;
+  background-color: #182a3a;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 0;
+  padding: 0;
+  border-radius: 10px;
+  width: 100%;
+}
+.image-checkbox-checked .img-responsive {
+  opacity: 0.5;
+}
+.play-check-container .image-checkbox .fa {
+  position: absolute;
+  top: 102px;
+  left: 100px;
+  display: none;
+}
+
+.fa-check-circle-o:before {
+  content: "\f05d";
+  color: #0f87e6;
+  font-size: 65px;
+}
+.play-check-container h3 {
+  font-size: 55px;
+  font-weight: 700;
+  margin-top: 30px;
+}
+.play-check-container p {
+  max-width: 440px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+.play-check-body {
+  /* background-image: url(../images/slider1.png); */
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.play-check-container .continue-btn {
+  border-radius: 20px;
+  /* background-color: transparent; */
+  text-align: center;
+  color: black;
+  width: 100%;
+  margin: 0 auto;
+  height: 44px;
+  background-image: linear-gradient(to right, #8df4ae, #69b8f9);
+  max-width: 350px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+.check-img {
+  border-radius: 30px;
+  height: 280px;
+}
+.check-img:hover {
+  transform: scale(1.01) !important;
+  transition: all 0.5s ease 0.75ms !important;
+  box-shadow: 0px 0px 20px #00000094 !important;
+  opacity: 0.8;
+  border: 3px solid #01bcfc;
+  border-radius: 30px;
+}
+.team-up-div-logo {
+  margin-bottom: 50px;
+  margin-top: 8%;
+}
+.form-control:focus {
+  background-color: transparent;
+  outline: none;
+  box-shadow: none;
+  color: white;
+}
+
+.logo-img {
+  margin-top: 50px;
+}
+.main-login-register {
+  background-color: black;
+  color: white;
+  max-width: 765px;
+  margin: 0 auto;
+  margin-top: 5%;
+  padding: 60px;
+  padding-bottom: 30px;
+}
+.reg-input {
+  background-color: black;
+  border-radius: 20px;
+  padding-left: 20px;
+  color: #fff !important;
+}
+.register-label {
+  margin-left: 20px;
+  margin-bottom: 0;
+  margin-top: 20px;
+  text-transform: uppercase;
+  position: relative;
+}
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+  color: white;
+  background-color: black;
+  border: none;
+  border-bottom: 4px solid #8df4ae;
+}
+label.label-checkbox {
+  margin-left: 50px;
+  margin-top: 20px;
+}
+.main-login-register a {
+  color: white;
+}
+li.nav-item {
+  margin: 0 auto;
+}
+.nav-tabs .nav-link:focus,
+.nav-tabs .nav-link:hover {
+  border: none;
+  border-bottom: 4px solid #8df4ae;
+}
+.btn.account-btn {
+  border: 1px solid;
+  border-radius: 30px;
+  width: 330px;
+  background-image: linear-gradient(to right, #8df4ae, #69b8f9);
+  margin-top: 30px;
+  height: 40px;
+}
+.member-text:hover {
+  color: #56b2ff !important;
+}
+.member-text {
+  color: #56b2ff !important;
+  text-decoration: underline !important;
+  display: block;
+  margin-top: 30px;
+  font-weight: 500;
+}
+.my-form-row {
+  margin-top: 10px;
+}
+.register-label:after {
+  content: "*";
+  position: absolute;
+  right: -11px;
+  color: #8df4ae;
+}
+.nav-link {
+  font-size: 20px;
+  font-weight: 700;
+}
+.social-btn:hover {
+  color: #0e89e7;
+}
+.social-btn {
+  border: 1px solid white;
+  background-color: white;
+  border-radius: 30px;
+  width: 100%;
+  color: #0e89e7;
+  font-size: 16px;
+  font-weight: 700;
+  position: relative;
+  margin-top: 10px;
+  height: 40px;
+}
+.fb-btn:hover {
+  color: white;
+}
+.fb-btn {
+  background-color: #385398;
+  border-color: #385398;
+  color: white;
+  margin-top: 30px;
+}
+
+.twitter-btn:hover {
+  color: white;
+}
+.twitter-btn {
+  background-color: #7ac4f7;
+  border-color: #7ac4f7;
+  color: white;
+  margin-top: 30px;
+}
+.row.right-social-row {
+  margin-top: 45px;
+}
+.or-col:before {
+  content: "";
+  background-image: url(../images/or-img.png);
+  background-repeat: no-repeat;
+  position: absolute;
+  left: -9px;
+  top: 35px;
+  height: 100%;
+  width: 30px;
+}
+.nav-tabs {
+  margin-bottom: 20px;
+}
+label.signed-checkbox {
+  margin-left: 40px;
+  margin-top: 20px;
+}
+.login-btn {
+  border-radius: 20px;
+  text-align: center;
+  color: black;
+  width: 100%;
+  margin: 0 auto;
+  height: 44px;
+  background-image: linear-gradient(to right, #8df4ae, #69b8f9);
+  max-width: 350px;
+  margin-top: 17px;
+  /* margin-bottom: 30px; */
+}
+a.forgot-text {
+  display: block;
+  margin-top: 30px;
+  font-size: 14px;
+  font-weight: 300;
+}
+.sign-up:hover {
+  text-decoration: none;
+}
+.sign-up {
+  font-size: 20px;
+  font-weight: 600;
+  border-bottom: 4px solid #8df4ae;
+  display: inline-block;
+  padding-top: 60px;
+}
+.btn.social-btn img {
+  padding-right: 5px;
+}
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 17px;
+  left: 35px;
+  height: 25px;
+  width: 25px;
+  background-color: black;
+  border: 1px solid white;
+}
+
+/* On mouse-over, add a grey background color */
+.container:hover input ~ .checkmark {
+  background-color: black;
+}
+
+/* When the checkbox is checked, add a blue background */
+.container input:checked ~ .checkmark {
+  background-color: black;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.container input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.container .checkmark:after {
+  left: 9px;
+  top: 3px;
+  width: 7px;
+  height: 15px;
+  border: solid #06aaf5;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.main-login-register .form-check-input {
+  display: none;
+}
+span.checkmark.login-checkmark {
+  left: 25px;
+}
+/* .sign-up page */
+
+.signup-form,
+.login-form {
+  width: 420px;
+  margin: 0 auto;
+  margin-top: 10%;
+  background-color: #182a3a;
+  border-radius: 10px;
+}
+.signup-div .signup-input::placeholder,
+.login-div .signup-input::placeholder {
+  color: #b4b4b4;
+  font-size: 14px;
+  font-weight: 300;
+}
+.signup-div .signup-input,
+.login-div .signup-input {
+  background-color: #182a3a;
+  border-radius: 20px;
+  padding-left: 20px;
+  border-color: #06abf5;
+  color: #b4b4b4 !important;
+  margin-top: 30px;
+  font-size: 14px;
+  font-weight: 300;
+  height: 40px;
+}
+.signup-div,
+.login-div {
+  max-width: 370px;
+  /* width: 100%; */
+  margin: 0 auto;
+  margin-top: 4%;
+  border-image: linear-gradient(to right, #1472de, #00c3ff);
+  color: #fff;
+}
+.background-gradient {
+  background-image: linear-gradient(to right, #8df4ae, #69b8f9);
+  height: 12px;
+  max-width: 420px;
+  margin: 0 auto;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.signup-text {
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.connect-text {
+  margin-top: 30px;
+  display: inline-block;
+  position: relative;
+}
+.connect-text:before {
+  content: "";
+  position: absolute;
+  background-image: url(../images/hr-line.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  left: -100px;
+  top: 8px;
+  height: 3px;
+  width: 92px;
+}
+.connect-text:after {
+  content: "";
+  position: absolute;
+  background-image: url(../images/hr-line.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  right: -102px;
+  top: 8px;
+  height: 3px;
+  width: 98px;
+}
+
+.connect-text {
+  font-size: 15px;
+  font-weight: 300;
+}
+.login-div .checkmark:hover,
+.signup-div .checkmark:hover {
+  background-color: #182a3a;
+}
+
+.login-div input:checked ~ .checkmark,
+.signup-div input:checked ~ .checkmark {
+  background-color: #182a3a;
+}
+.login-div .checkmark:after,
+.signup-div .checkmark:after {
+  left: 10px;
+  top: 3px;
+  width: 7px;
+  height: 15px;
+  border: solid #06aaf5;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+.login-div .checkmark,
+.signup-div .checkmark {
+  position: absolute;
+  top: 17px;
+  left: 27px;
+  height: 30px;
+  width: 30px;
+  background-color: #182a3a !important;
+  border: 1px solid #02b9fb;
+  border-radius: 6px;
+}
+.label-checkbox .form-check-input {
+  display: none;
+}
+
+.login-div .forgot-txt:hover,
+.signup-div .forgot-txt:hover {
+  color: white;
+  text-decoration: none;
+}
+.login-div .forgot-txt,
+.signup-div .forgot-txt {
+  color: #fff;
+  margin-top: 20px;
+  display: inline-block;
+}
+
+.sign-up-btn {
+  border: 1px solid #8df4ae;
+  background-image: linear-gradient(to right, #8df4ae, #69b8f9);
+  height: 40px;
+  border-radius: 20px;
+  width: 100%;
+  font-size: 16px;
+  margin-bottom: 20px;
+  position: relative;
+  padding-left: 30px;
+  margin-top: 40px;
+}
+.login-div .sign-up-btn i.fa.fa-user,
+.signup-div .sign-up-btn i.fa.fa-user {
+  font-size: 32px;
+  color: black;
+  margin-left: -30px;
+  position: absolute;
+  top: 2px;
+}
+.remember-row {
+  margin-top: 20px;
+}
+.social-col a {
+  background-color: rgb(112 112 112 / 0.25);
+  border-radius: 7px;
+  height: 60px;
+  width: 108px;
+  text-align: center;
+  padding-top: 13px;
+  display: inline-block;
+}
+.to-signup-row .fa-long-arrow-right:before {
+  content: "\f061";
+  border: 1px solid #707070;
+  padding: 12px 15px;
+  border-radius: 50%;
+  font-size: 25px;
+  background-color: #707070;
+}
+.main-logo-img {
+  margin-left: 40px;
+}
+.login-form .sign-up-btn {
+  margin-bottom: 50px;
+}
+
+.login-form {
+  padding-bottom: 50px;
+}
+.to-signup-row {
+  background-color: #1f3c58;
+  padding: 20px 0;
+}
+.to-signup-row a {
+  color: white;
+}
+.social-col a:focus {
+  border: none;
+  box-shadow: none;
+  outline: none;
+}
+.team-up-div-logo-row {
+  margin-top: 5%;
+}
+.role-background-gradient {
+  background-image: linear-gradient(to right, #8df4ae, #69b8f9);
+  height: 12px;
+  max-width: 750px;
+  margin: 0 auto;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.play-check-bg-gradient {
+  background-image: linear-gradient(to right, #8df4ae, #69b8f9);
+  height: 12px;
+  max-width: 1021px;
+  margin: 0 auto;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.team-up-container .form-control:focus {
+  background-color: black;
+}
+.check-div {
+  padding: 0 30px;
+}
+.team-up-container .search-team {
+  background-color: black;
+}
+@media (max-width: 1230px) {
+  .play-check-bg-gradient {
+    width: auto;
+    max-width: unset;
+    padding: 0 49px;
+    margin: 0 15px;
+  }
+  .play-check-container {
+    width: 100%;
+    max-width: 100%;
+  }
+  .check-img {
+    border-radius: 30px;
+    height: 250px;
+  }
+  /* .play-check-container {
+    max-width: 80%;
+  }
+
+  .play-check-container {
+    max-width: 80%;
+  }
+  body.play-check-body .container {
+    max-width: 100%;
+  } */
+  .team-up-container .play-check-bg-gradient {
+    margin: 0;
+  }
+}
+
+@media (max-width: 991px) {
+  .play-check-body .container {
+    max-width: 95%;
+  }
+  .check-img {
+    height: 210px;
+    width: 95%;
+  }
+  .image-checkbox {
+    margin-top: 20px;
+  }
+  .background-gradient {
+    width: 100%;
+    /* margin: 0 15px; */
+  }
+  .signup-div,
+  .login-div {
+    max-width: 100%;
+  }
+  .signup-form,
+  .login-form {
+    max-width: 100%;
+  }
+  .main-logo-img {
+    margin-left: 0;
+  }
+  .signup-div .row,
+  .login-div .row {
+    margin: 0 15px;
+  }
+  .row-background-gradient {
+    width: 100%;
+    margin: 0 !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .play-check-container .image-checkbox .fa {
+    position: absolute;
+    top: 85px;
+    left: 40%;
+  }
+  .play-check-container h3 {
+    font-size: 48px;
+  }
+  .check-img {
+    width: unset;
+  }
+  .signup-div,
+  .login-div {
+    max-width: 100%;
+  }
+  .signup-form .row {
+    margin: 0;
+  }
+}
+@media (max-width: 576px) {
+  .play-check-container h3 {
+    font-size: 42px;
+  }
+  .play-check-container .image-checkbox .fa {
+    left: 45%;
+    top: 90px;
+  }
+}
+
+@media (max-width: 380px) {
+  .connect-text:before {
+    left: -40%;
+    width: 37%;
+  }
+  .connect-text:after {
+    right: -40%;
+    width: 39%;
+  }
+  .social-col a {
+    width: 70%;
+  }
+}
+.slider-nav .card {
+  background-color: transparent;
+}
+.slick-txt {
+  background-color: #223545;
+  color: #fff;
+}
+.game-txt-row a {
+  color: white;
+  font-size: 20px;
+}
+.game-txt-row h4 {
+  color: white;
+  border-bottom: 5px solid #8df4ae;
+  display: inline-block;
+  padding-bottom: 20px;
+}
+.hr-style {
+  border: 1px solid white;
+  margin-top: -8px;
+}
+.slick-prev:before,
+.slick-next:before {
+  display: none;
+}
