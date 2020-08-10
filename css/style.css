@@ -210,12 +210,12 @@ ul.navbar-nav {
   background-image: linear-gradient(to right, #1472de, #00c3ff);
 }
 .banner-btn {
-  border-radius: 10px;
-  background-image: linear-gradient(to right, #1472de, #00c3ff);
-  padding: 12px 18px;
-  color: white;
+  background-image: linear-gradient(to right, #8DF4AE, #69B8F9);
+  padding: 13px 32px;
+  color: #000000;
   font-size: 23px;
-  font-weight: 700;
+  font-weight: 500;
+  border-radius: 50px;
 }
 
 .banner-btn:hover {
@@ -1001,3 +1001,326 @@ span.checkmark.login-checkmark {
 .slick-next:before {
   display: none;
 }
+span.date {
+  position: absolute;
+  border: 1px solid #8df4ae;
+  background-color: #8df4ae;
+  color: black;
+  padding: 12px 15px;
+  padding-left: 4px;
+  bottom: 0;
+}
+.img-part {
+  position: relative;
+}
+span.date {
+  position: absolute;
+  border: 1px solid #8df4ae;
+  background-color: #8df4ae;
+  color: black;
+  padding: 12px 15px;
+  padding-left: 4px;
+  bottom: 0;
+  left: 0;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.bran-img {
+  border: 1px solid #01584c;
+  background-color: #01584c;
+  padding: 7px;
+  border-radius: 10px;
+}
+.dropdoown-img {
+  width: 31px;
+  height: 31px;
+}
+.suggested-sec .card {
+  background-color: #11222d;
+  color: white;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  max-width: 450px;
+  margin-top: 20px;
+}
+
+img.silver-img {
+  border: 1px solid #01584c;
+  background-color: #01584c;
+  border-radius: 12px;
+  padding: 9px;
+}
+.sliver-txt {
+  color: #8df4ae;
+  font-size: 25px;
+  margin-left: 12px;
+}
+
+.sub-sliver-txt {
+  font-size: 14px;
+  color: #707070;
+  margin-left: 12px;
+}
+.dropdown {
+  background-color: #223545;
+  color: white;
+  padding: 5px 1px;
+}
+
+button#triggerId {
+  color: #8df4ae;
+  font-size: 18px;
+  text-align: center;
+}
+
+.dropdown-toggle::after {
+  color: white;
+}
+
+.run-span {
+  margin-left: 39px;
+}
+.suggested-sec .dropdown-toggle::after {
+  color: white;
+  font-size: 34px;
+  margin-left: 19px;
+  position: absolute;
+  top: 22px;
+  right: 55px;
+}
+.spot-left {
+  color: #8df4ae;
+  font-size: 20px;
+  margin-left: 20px;
+}
+.silver-reg-btn {
+  background-image: linear-gradient(to right, #8df4ae, #69b8f9);
+  color: black;
+  border-radius: 20px;
+  font-weight: 600;
+  padding: 8px 22px;
+}
+.suggested-sec .card-footer {
+  background-color: #223545;
+  padding-top: 20px;
+  border-bottom-right-radius: 20px !important;
+  border-bottom-left-radius: 20px !important;
+}
+.suggested-sec .card-body {
+  padding-left: 22px;
+  padding-right: 22px;
+  padding-top: 40px;
+}
+.card-hr-col img {
+  width: 100%;
+}
+.suggested-sec .suggested-for-text {
+  color: white;
+  border-bottom: 5px solid #8df4ae;
+  display: inline-block;
+  padding-bottom: 20px;
+}
+.view-text {
+  color: white;
+  font-size: 20px;
+}
+.sugggested-row {
+  margin-top: 30px;
+}
+.single-text {
+  font-size: 16px;
+}
+.suggested-sec .fa-calendar:before {
+  content: "\f073";
+  font-weight: 700;
+  font-size: 22px;
+}
+.suggested-sec .dropdown-menu.show {
+  width: 100%;
+  background-color: #223545;
+  color: white;
+}
+.suggested-sec button.dropdown-item {
+  color: white;
+}
+.suggested-sec .dropdown-item:focus,
+.suggested-sec .dropdown-item:hover {
+  background-color: #223545;
+}
+.tournament-table-sec thead {
+  color: white;
+  font-size: 20px;
+}
+.tournament-table-sec tr {
+  color: white;
+}
+.main-text-div {
+  display: inline-block;
+}
+.no-col {
+  width: 1%;
+}
+span.main-text-table {
+  display: block;
+  position: relative;
+}
+.table-text-div:before {
+  content: "";
+  background-image: url(../images/table-trophy.png);
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: cover;
+  top: 20px;
+  left: 9px;
+}
+.table-text-div {
+  margin-left: 50px;
+}
+span.main-text-table {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+span.sub-text-table {
+  font-size: 13px;
+  font-weight: 400;
+}
+td {
+  font-size: 20px;
+}
+.td-win-price {
+  color: #8df4ae;
+  padding-top: 25px;
+}
+.td-no,
+.td-player,
+.td-player,
+.td-runner-price,
+.td-round {
+  padding-top: 25px !important;
+}
+.table-data {
+  position: relative;
+}
+.tournament-table-sec tr:hover {
+  background-image: linear-gradient(to right, #8df4ae, #69b8f9);
+  border: 1px solid #8df4ae;
+  border-radius: 30px !important;
+  box-shadow: 10px 10px 8px #000000;
+
+  color: black !important;
+}
+.td-win-price:hover {
+  color: black !important;
+}
+
+
+
+/* ----------------------------- Ubaid CSS START  --------------------*/
+#accordionSidebar {
+  MARGIN: 0;
+  height: 373px;
+}
+
+.tournoment-banner .banner-btn {
+  background-image: linear-gradient(to right, #8DF4AE, #69B8F9);
+  padding: 13px 32px;
+  color: #000000;
+  font-size: 23px;
+  font-weight: 500;
+  border-radius: 50px;
+}
+.tournament-dashboard {
+  padding: 0;
+}
+.tournoment-banner {
+  margin-top: 30px;
+}
+#tournoment-cards {
+  padding: 30px 0 0;
+}
+section.mainbanner {
+  margin-top: -140px;
+  margin-bottom: -100px;
+}
+.topbar.navbar-light .navbar-nav .nav-item .nav-link {
+  z-index: 999;
+  font-size: 25px;
+  color: #fff;
+  font-weight: 400;
+  text-transform: uppercase;
+  border-bottom: 1px solid #8DF4AE;
+}
+.mainbanner .carousel-indicators li {
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+}
+.mainbanner .carousel-indicators li{
+  background-color: #223545;
+}
+
+.mainbanner .carousel-indicators li.active {
+ background-color: #8DF4AE;
+}
+.mainbanner .carousel-caption {
+  padding-top: 140px;
+}
+.mainbanner  .carousel-indicators {
+  bottom: 20%;
+}
+.mainbanner .carousel-control-next-icon {
+  background-image: url(../images/right-arrow.png);
+}
+.mainbanner .carousel-control-prev-icon {
+  background-image: url(../images/left-arrow.png);
+}
+.footer-logo {
+  width: 132px;
+  height: 132px;
+  margin-top: 70px;
+  margin-bottom: 55px;
+}
+.main-footer {
+  background-color: #182a3a;
+  height: 441px;
+  margin-top: 40px;
+}
+.copyright-text {
+  font-size: 16px;
+  color: white;
+  font-weight: 300;
+  margin-top: 40px;
+}
+.footer-ul {
+  color: #8df4ae;
+}
+.footer-ul li span {
+  margin-left: 12px;
+}
+.footer-ul li {
+  display: inline;
+  margin-left: 20px;
+}
+
+ul.footer-ul {
+  text-align: center;
+  margin-top: 46px;
+}
+.copyright-row {
+  border-top: 2px solid #8df4ae;
+  text-align: center;
+  margin-bottom: 50px;
+}
+ul.footer-ul a:hover {
+  color: #8df4ae;
+}
+ul.footer-ul a {
+  color: #8df4ae;
+}
+
+/* ----------------------------- Ubaid CSS END  --------------------*/
