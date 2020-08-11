@@ -12,11 +12,47 @@
  #wrapper {
     background: #0D1A22 !important
 }
-#alertsDropdown {
-    border-radius: 100%;
-    width: 52px;
-    height: 51px;
-    top: 11px;
+.sidebar.toggled .nav-item .nav-link span {
+    font-size: 0.65rem;
+    font-weight: 400;
+}
+.topbar .dropdown {
+    position: relative;
+    background-color: #182835;
+}
+.tournoment-dropdown .dropdown-menu {
+    background-color: #182835;
+    border-radius: 0;
+    width: 20rem !important;
+    border: 0;
+    margin: 0;
+}
+.tournoment-dropdown .dropdown-menu .dropdown-item {
+    color: #fff;
+    font-size: 16px;
+}
+.tournoment-dropdown .dropdown-menu .dropdown-item:focus,
+.tournoment-dropdown .dropdown-menu .dropdown-item:hover {
+    background-color: #253648;
+}
+.tournoment-dropdown .dropdown {
+    position: initial !important;
+}
+.topbar .nav-item .nav-link {
+    height: 4.375rem;
+    padding: 0 14px;
+    margin: 0;
+}
+.tournoment-dropdown  li.nav-item {
+    padding: 10px 0;
+}
+.tournoment-dropdown li a {
+    border: 0 !important;
+}
+.nav-item.profile-image {
+    margin: auto;
+    right: 0;
+    position: absolute;
 }
 .sidebar {
 background-color: #1C3041;
@@ -1459,25 +1495,27 @@ pre code {
 .table th {
     padding: 0.75rem;
     vertical-align: top;
-    border-top: 1px solid #e3e6f0;
+    border-top: 1px solid #5C656A;
 }
 .table thead th {
     vertical-align: bottom;
-    border-bottom: 2px solid #e3e6f0;
+    border-bottom: 2px solid #5C656A;
+    border-top: 0;
+    padding-top: 8px;
 }
 .table tbody + tbody {
-    border-top: 2px solid #e3e6f0;
+    border-top: 2px solid #5C656A;
 }
 .table-sm td,
 .table-sm th {
     padding: 0.3rem;
 }
 .table-bordered {
-    border: 1px solid #e3e6f0;
+    border: 1px solid #5C656A;
 }
 .table-bordered td,
 .table-bordered th {
-    border: 1px solid #e3e6f0;
+    border: 1px solid #5C656A;
 }
 .table-bordered thead td,
 .table-bordered thead th {
@@ -3758,7 +3796,7 @@ input[type="submit"].btn-block {
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
-    padding: 0.5rem 1rem;
+    padding: 0;
 }
 .navbar > .container,
 .navbar > .container-fluid {
@@ -9120,6 +9158,7 @@ a:focus {
     font-weight: 700;
     text-transform: uppercase;
     color: #fff;
+    padding-left: 20px;
 }
 .topbar #sidebarToggleTop {
     height: 2.5rem;
@@ -9345,10 +9384,7 @@ a:focus {
 .sidebar #sidebarToggle:focus {
     outline: 0;
 }
-.sidebar.toggled {
-    width: 0 !important;
-    overflow: hidden;
-}
+
 .sidebar.toggled #sidebarToggle::after {
     content: "\f105";
     font-family: "Font Awesome 5 Free";

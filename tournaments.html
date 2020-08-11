@@ -77,19 +77,136 @@
         
   
             <!-- Topbar Navbar -->
-            <ul class="navbar-nav ml-auto">
+            <ul class="navbar-nav ml-auto tournoment-dropdown">
           
-          
+              <li class="nav-item dropdown no-arrow mx-1">
+                <a class="nav-link dropdown-toggle announce" href="#" id="alertsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                 <i class="fa fa-bell"></i>
+                  <!-- Counter - Alerts -->
+                  <span class="badge badge-danger badge-announce badge-counter">123</span>
+                </a>
+                <!-- Dropdown - Alerts -->
+                <div class="dropdown-list dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="alertsDropdown">
+                    <div class="social-feeds">
+                        <button>Updates</button>
+                        <div class="feeds">
+                          <img src="images/feeds.png">
+                          <h4>Social Feeds</h4>
+                          <h6>Live updates from your friends on 
+                            Mogul will appear here.</h6>
+                        <p>Add your friends on Mogul to subscribe to their social feed</p>
+                        </div>
+
+                        <div class="social-tabs">
+                          <ul class="nav nav-pills" role="tablist">
+                            <li class="nav-item">
+                              <a class="nav-link active" data-toggle="pill" href="#friends">Friends</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" data-toggle="pill" href="#teams">Teams</a>
+                            </li>
+                         </ul>
+                           <!-- Tab panes -->
+                      <div class="tab-content">
+                        <div id="friends" class="container tab-pane active">
+                          <div class="feeds">
+                            <form>
+                              <input type="email" placeholder="Email adress....">
+                              <button>Invite <i class="fa fa-send"></i></button>
+                            </form>
+                            <img src="images/addfriends.png">
+                            <h4>Friends</h4>
+                            <h6>No friends found</h6>
+                          <p>Add some friends to start chatting with them here.</p>
+                          </div>
+                        </div>
+                        <div id="teams" class="container tab-pane fade">
+                          <div class="feeds">
+                            <form>
+                              <input type="email" placeholder="Email adress....">
+                              <button>Invite <i class="fa fa-send"></i></button>
+                            </form>
+                            <img src="images/addfriends.png">
+                            <h4>Friends</h4>
+                            <h6>No friends found</h6>
+                          <p>Add some friends to start chatting with them here.</p>
+                          </div>
+                        </div>
+                      </div>
+                        </div>
+                    </div>
+                </div>
+              </li>
+
     
+    
+
+
+              <li class="nav-item dropdown no-arrow mx-1">
+                <a class="nav-link dropdown-toggle announce" href="#" id="alertsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <i class="fa fa-gift"></i>
+                 </a>
+                <!-- Dropdown - Alerts -->
+                <div class="dropdown-list dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="alertsDropdown">
+                    <div class="social-feeds">
+                        <button>Updates</button>
+                        <div class="feeds">
+                          <img src="images/feeds.png">
+                          <h4>Social Feeds</h4>
+                          <h6>Live updates from your friends on 
+                            Mogul will appear here.</h6>
+                        <p>Add your friends on Mogul to subscribe to their social feed</p>
+                        </div>
+
+                        <div class="social-tabs">
+                          <ul class="nav nav-pills" role="tablist">
+                            <li class="nav-item">
+                              <a class="nav-link active" data-toggle="pill" href="#friends">Friends</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" data-toggle="pill" href="#teams">Teams</a>
+                            </li>
+                         </ul>
+                           <!-- Tab panes -->
+                      <div class="tab-content">
+                        <div id="friends" class="container tab-pane active">
+                          <div class="feeds">
+                            <form>
+                              <input type="email" placeholder="Email adress....">
+                              <button>Invite <i class="fa fa-send"></i></button>
+                            </form>
+                            <img src="images/addfriends.png">
+                            <h4>Friends</h4>
+                            <h6>No friends found</h6>
+                          <p>Add some friends to start chatting with them here.</p>
+                          </div>
+                        </div>
+                        <div id="teams" class="container tab-pane fade">
+                          <div class="feeds">
+                            <form>
+                              <input type="email" placeholder="Email adress....">
+                              <button>Invite <i class="fa fa-send"></i></button>
+                            </form>
+                            <img src="images/addfriends.png">
+                            <h4>Friends</h4>
+                            <h6>No friends found</h6>
+                          <p>Add some friends to start chatting with them here.</p>
+                          </div>
+                        </div>
+                      </div>
+                        </div>
+                    </div>
+                </div>
+              </li>
            
         
               <!-- Nav Item - User Information -->
-              <li class="nav-item no-arrow">
-                <!-- <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <li class="nav-item no-arrow profile-image">
+                <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                   <img class="img-profile" src="images/team-2.png">
-                </a> -->
+                </a>
                 <!-- Dropdown - User Information -->
-                <!-- <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="userDropdown">
+                <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="userDropdown">
                   <a class="dropdown-item" href="#">
                     <i class="fa fa-user fa-sm fa-fw mr-2 text-gray-400"></i>
                     Profile
@@ -100,7 +217,7 @@
                     <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
                     Logout
                   </a>
-                </div> -->
+                </div>
               </li>
   
             </ul>
@@ -110,8 +227,10 @@
   
           <!-- Begin Page Content -->
           <div class="container-fluid tournament-dashboard">
+            <div class="row">
+            <div class="col-md-10">
             <section>
-              <div class="container">
+              <div class="container-fluid">
                 <div class="row game-txt-row">
                   <div class="col">
                     <h4 class="game-text">GAME HUBS</h4>
@@ -192,13 +311,52 @@
               </div>
             </section>
 
+            <div class="tournoment-filter">
+              <form>
+                <input type="text" placeholder="Search for tournaments ">
+                <select>
+                  <option>GAMES ALL</option>
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                </select>
+                <select>
+                  <option>REGION
+                    ASIA</option>
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                </select>
+                <select>
+                  <option>PLATFORM
+                    ALL</option>
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                </select>
+                <select>
+                  <option>ENTRY
+                    ALL</option>
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                </select>
+                <select>
+                  <option>ESORT BY
+                    STARTING SOON</option>
+                  <option>1</option>
+                  <option>2</option>
+                  <option>3</option>
+                </select>
+              </form>
+            </div>
+
             <section id="tournoment-cards">
               <div class="container">
                 <div class="row game-txt-row">
                   <div class="col">
                     <h4 class="game-text">SUGGESTED FOR YOU</h4>
                   </div>
-                
                 </div>
                 <div class="row">
                   <div class="col">
@@ -206,157 +364,189 @@
                   </div>
                 </div>
                 <section class="suggested-sec">
-                <div class="row sugggested-row">
-                  <div class="col-md-3">
-                    <div class="card">
-                      <div class="img-part">
-                        <img class="card-img-top" src="./images/League-of-Legends.png" alt="" />
-                        <span class="date"><i class="fa fa-calendar" aria-hidden="true"></i> July, 26 03:05 pm</span>
-                      </div>
-                      <div class="card-body">
-                        <div class="row mb-2">
-                          <div class="col-2"><img src="./images/pngbarn.png" alt="barn" class="bran-img" /></div>
-                          <div class="col"><p class="league-txt">Leagues Of Legends From Home: Community Tournament 1v1</p></div>
+                  <div class="row sugggested-row tournament-cards-row">
+                    <div class="col-md-3">
+                      <div class="card">
+                        <div class="img-part">
+                          <img class="card-img-top" src="./images/League-of-Legends.png" alt="" />
+                          <span class="date"><i class="fa fa-calendar" aria-hidden="true"></i> July, 26 03:05 pm</span>
                         </div>
-                        <div class="row mb-5">
-                          <div class="col">
-                            <span class="single-text">1v1 - Single Elimination</span>
+                        <div class="card-body">
+                          <div class="row mb-2">
+                            <div class="col-2"><img src="./images/pngbarn.png" alt="barn" class="bran-img" /></div>
+                            <div class="col"><p class="league-txt">Leagues Of Legends From Home: Community Tournament 1v1</p></div>
                           </div>
-                          <div class="col card-hr-col">
-                            <img src="./images/card-hr.png" alt="" />
+                          <div class="row mb-3">
+                            <div class="col">
+                              <span class="single-text">1v1 - Single Elimination</span>
+                            </div>
+                            <div class="col card-hr-col">
+                              <img src="./images/card-hr.png" alt="" />
+                            </div>
                           </div>
-                        </div>
-                        <div class="row mb-5">
-                          <div class="col">
-                            <div class="dropdown">
-                              <button class="btn dropdown-toggle" type="button" id="triggerId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="./images/main-logo.png" class="dropdoown-img" alt="" /> <span class="text-uppercase run-span">Tournament Run BY</span></button>
-                              <div class="dropdown-menu" aria-labelledby="triggerId">
-                                <button class="dropdown-item" href="#">Action</button>
+                          <div class="row mb-3">
+                            <div class="col">
+                              <!-- <div class="dropdown">
+                                <button class="btn dropdown-toggle" type="button" id="triggerId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="./images/main-logo.png" class="dropdoown-img" alt="" /> <span class="text-uppercase run-span">Tournament Run BY</span></button>
+                                <div class="dropdown-menu" aria-labelledby="triggerId">
+                                  <button class="dropdown-item" href="#">Action</button>
+                                </div>
+                              </div> -->
+                              <div class="tournament-run-by-div">
+                                <div class="row">
+                                  <div class="col-3">
+                                    <img src="./images/starlogo.png" width="59px" alt="" />
+                                  </div>
+                                  <div class="col">
+                                    <p class="tournament-run-by-txt">Tournament Run BY</p>
+                                    <p class="tournament-star-txt">Star</p>
+                                  </div>
+                                </div>
                               </div>
                             </div>
                           </div>
-                        </div>
-                        <div class="row">
-                          <div class="col-2">
-                            <img src="./images/ae.png" class="silver-img" alt="" />
+                          <div class="row">
+                            <div class="col-3">
+                              <img src="./images/ae.png" class="silver-img" alt="" />
+                            </div>
+                            <div class="col-9">
+                              <h4 class="sliver-txt">100,000 Razer Silver</h4>
+                              <span class="sub-sliver-txt">Total Prizepool divided among all placements </span>
+                            </div>
                           </div>
-                          <div class="col">
-                            <h4 class="sliver-txt">100,000 Razer Silver</h4>
-                            <span class="sub-sliver-txt">Total Prizepool divided among all placements </span>
+                        </div>
+                        <div class="card-footer">
+                          <div class="row">
+                            <div class="col"><p class="spot-left">16 spots left</p></div>
+                            <div class="col">
+                              <a class="btn silver-reg-btn" href="#">Registration now</a>
+                            </div>
                           </div>
                         </div>
                       </div>
-                      <div class="card-footer">
-                        <div class="row">
-                          <div class="col"><p class="spot-left">16 spots left</p></div>
-                          <div class="col">
-                            <a class="btn silver-reg-btn" href="#">Registration now</a>
+                    </div>
+                    <div class="col-md-3">
+                      <div class="card">
+                        <div class="img-part">
+                          <img class="card-img-top" src="./images/League-of-Legends.png" alt="" />
+                          <span class="date"><i class="fa fa-calendar" aria-hidden="true"></i> July, 26 03:05 pm</span>
+                        </div>
+                        <div class="card-body">
+                          <div class="row mb-2">
+                            <div class="col-2"><img src="./images/pngbarn.png" alt="barn" class="bran-img" /></div>
+                            <div class="col"><p class="league-txt">Leagues Of Legends From Home: Community Tournament 1v1</p></div>
+                          </div>
+                          <div class="row mb-3">
+                            <div class="col">
+                              <span class="single-text">1v1 - Single Elimination</span>
+                            </div>
+                            <div class="col card-hr-col">
+                              <img src="./images/card-hr.png" alt="" />
+                            </div>
+                          </div>
+                          <div class="row mb-3">
+                            <div class="col">
+                              <!-- <div class="dropdown">
+                                <button class="btn dropdown-toggle" type="button" id="triggerId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="./images/main-logo.png" class="dropdoown-img" alt="" /> <span class="text-uppercase run-span">Tournament Run BY</span></button>
+                                <div class="dropdown-menu" aria-labelledby="triggerId">
+                                  <button class="dropdown-item" href="#">Action</button>
+                                </div>
+                              </div> -->
+                              <div class="tournament-run-by-div">
+                                <div class="row">
+                                  <div class="col-3">
+                                    <img src="./images/starlogo.png" width="59px" alt="" />
+                                  </div>
+                                  <div class="col">
+                                    <p class="tournament-run-by-txt">Tournament Run BY</p>
+                                    <p class="tournament-star-txt">Star</p>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="col-3">
+                              <img src="./images/ae.png" class="silver-img" alt="" />
+                            </div>
+                            <div class="col-9">
+                              <h4 class="sliver-txt">100,000 Razer Silver</h4>
+                              <span class="sub-sliver-txt">Total Prizepool divided among all placements </span>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="card-footer">
+                          <div class="row">
+                            <div class="col"><p class="spot-left">16 spots left</p></div>
+                            <div class="col">
+                              <a class="btn silver-reg-btn" href="#">Registration now</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-3">
+                      <div class="card">
+                        <div class="img-part">
+                          <img class="card-img-top" src="./images/League-of-Legends.png" alt="" />
+                          <span class="date"><i class="fa fa-calendar" aria-hidden="true"></i> July, 26 03:05 pm</span>
+                        </div>
+                        <div class="card-body">
+                          <div class="row mb-2">
+                            <div class="col-2"><img src="./images/pngbarn.png" alt="barn" class="bran-img" /></div>
+                            <div class="col"><p class="league-txt">Leagues Of Legends From Home: Community Tournament 1v1</p></div>
+                          </div>
+                          <div class="row mb-3">
+                            <div class="col">
+                              <span class="single-text">1v1 - Single Elimination</span>
+                            </div>
+                            <div class="col card-hr-col">
+                              <img src="./images/card-hr.png" alt="" />
+                            </div>
+                          </div>
+                          <div class="row mb-3">
+                            <div class="col">
+                              <!-- <div class="dropdown">
+                                <button class="btn dropdown-toggle" type="button" id="triggerId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="./images/main-logo.png" class="dropdoown-img" alt="" /> <span class="text-uppercase run-span">Tournament Run BY</span></button>
+                                <div class="dropdown-menu" aria-labelledby="triggerId">
+                                  <button class="dropdown-item" href="#">Action</button>
+                                </div>
+                              </div> -->
+                              <div class="tournament-run-by-div">
+                                <div class="row">
+                                  <div class="col-3">
+                                    <img src="./images/starlogo.png" width="59px" alt="" />
+                                  </div>
+                                  <div class="col">
+                                    <p class="tournament-run-by-txt">Tournament Run BY</p>
+                                    <p class="tournament-star-txt">Star</p>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="col-3">
+                              <img src="./images/ae.png" class="silver-img" alt="" />
+                            </div>
+                            <div class="col-9">
+                              <h4 class="sliver-txt">100,000 Razer Silver</h4>
+                              <span class="sub-sliver-txt">Total Prizepool divided among all placements </span>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="card-footer">
+                          <div class="row">
+                            <div class="col"><p class="spot-left">16 spots left</p></div>
+                            <div class="col">
+                              <a class="btn silver-reg-btn" href="#">Registration now</a>
+                            </div>
                           </div>
                         </div>
                       </div>
                     </div>
                   </div>
-                  <div class="col-md-3">
-                    <div class="card">
-                      <div class="img-part">
-                        <img class="card-img-top" src="./images/League-of-Legends.png" alt="" />
-                        <span class="date"><i class="fa fa-calendar" aria-hidden="true"></i> July, 26 03:05 pm</span>
-                      </div>
-                      <div class="card-body">
-                        <div class="row mb-2">
-                          <div class="col-2"><img src="./images/pngbarn.png" alt="barn" class="bran-img" /></div>
-                          <div class="col"><p class="league-txt">Leagues Of Legends From Home: Community Tournament 1v1</p></div>
-                        </div>
-                        <div class="row mb-5">
-                          <div class="col">
-                            <span class="single-text">1v1 - Single Elimination</span>
-                          </div>
-                          <div class="col card-hr-col">
-                            <img src="./images/card-hr.png" alt="" />
-                          </div>
-                        </div>
-                        <div class="row mb-5">
-                          <div class="col">
-                            <div class="dropdown">
-                              <button class="btn dropdown-toggle" type="button" id="triggerId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="./images/main-logo.png" class="dropdoown-img" alt="" /> <span class="text-uppercase run-span">Tournament Run BY</span></button>
-                              <div class="dropdown-menu" aria-labelledby="triggerId">
-                                <button class="dropdown-item" href="#">Action</button>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="row">
-                          <div class="col-2">
-                            <img src="./images/ae.png" class="silver-img" alt="" />
-                          </div>
-                          <div class="col">
-                            <h4 class="sliver-txt">100,000 Razer Silver</h4>
-                            <span class="sub-sliver-txt">Total Prizepool divided among all placements </span>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="card-footer">
-                        <div class="row">
-                          <div class="col"><p class="spot-left">16 spots left</p></div>
-                          <div class="col">
-                            <a class="btn silver-reg-btn" href="#">Registration now</a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-md-3">
-                    <div class="card">
-                      <div class="img-part">
-                        <img class="card-img-top" src="./images/League-of-Legends.png" alt="" />
-                        <span class="date"><i class="fa fa-calendar" aria-hidden="true"></i> July, 26 03:05 pm</span>
-                      </div>
-                      <div class="card-body">
-                        <div class="row mb-2">
-                          <div class="col-2"><img src="./images/pngbarn.png" alt="barn" class="bran-img" /></div>
-                          <div class="col"><p class="league-txt">Leagues Of Legends From Home: Community Tournament 1v1</p></div>
-                        </div>
-                        <div class="row mb-5">
-                          <div class="col">
-                            <span class="single-text">1v1 - Single Elimination</span>
-                          </div>
-                          <div class="col card-hr-col">
-                            <img src="./images/card-hr.png" alt="" />
-                          </div>
-                        </div>
-                        <div class="row mb-5">
-                          <div class="col">
-                            <div class="dropdown">
-                              <button class="btn dropdown-toggle" type="button" id="triggerId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="./images/main-logo.png" class="dropdoown-img" alt="" /> <span class="text-uppercase run-span">Tournament Run BY</span></button>
-                              <div class="dropdown-menu" aria-labelledby="triggerId">
-                                <button class="dropdown-item" href="#">Action</button>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div class="row">
-                          <div class="col-2">
-                            <img src="./images/ae.png" class="silver-img" alt="" />
-                          </div>
-                          <div class="col">
-                            <h4 class="sliver-txt">100,000 Razer Silver</h4>
-                            <span class="sub-sliver-txt">Total Prizepool divided among all placements </span>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="card-footer">
-                        <div class="row">
-                          <div class="col"><p class="spot-left">16 spots left</p></div>
-                          <div class="col">
-                            <a class="btn silver-reg-btn" href="#">Registration now</a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  
-                </div>
-              </section>
+                </section>
               </div>
             </section>
             <section id="tournoment-cards">
@@ -365,7 +555,6 @@
                   <div class="col">
                     <h4 class="game-text">Starting soon</h4>
                   </div>
-                
                 </div>
                 <div class="row">
                   <div class="col">
@@ -373,211 +562,1521 @@
                   </div>
                 </div>
                 <section class="suggested-sec">
-                <div class="row sugggested-row">
-                  <div class="col-md-3">
-                    <div class="card">
-                      <div class="img-part">
-                        <img class="card-img-top" src="./images/League-of-Legends.png" alt="" />
-                        <span class="date"><i class="fa fa-calendar" aria-hidden="true"></i> July, 26 03:05 pm</span>
-                      </div>
-                      <div class="card-body">
-                        <div class="row mb-2">
-                          <div class="col-2"><img src="./images/pngbarn.png" alt="barn" class="bran-img" /></div>
-                          <div class="col"><p class="league-txt">Leagues Of Legends From Home: Community Tournament 1v1</p></div>
+                  <div class="row sugggested-row tournament-cards-row card-slider-nav">
+                    <div class="col-md-3">
+                      <div class="card">
+                        <div class="img-part">
+                          <img class="card-img-top" src="./images/League-of-Legends.png" alt="" />
+                          <span class="date"><i class="fa fa-calendar" aria-hidden="true"></i> July, 26 03:05 pm</span>
                         </div>
-                        <div class="row mb-5">
-                          <div class="col">
-                            <span class="single-text">1v1 - Single Elimination</span>
+                        <div class="card-body">
+                          <div class="row mb-2">
+                            <div class="col-2"><img src="./images/pngbarn.png" alt="barn" class="bran-img" /></div>
+                            <div class="col"><p class="league-txt">Leagues Of Legends From Home: Community Tournament 1v1</p></div>
                           </div>
-                          <div class="col card-hr-col">
-                            <img src="./images/card-hr.png" alt="" />
+                          <div class="row mb-3">
+                            <div class="col">
+                              <span class="single-text">1v1 - Single Elimination</span>
+                            </div>
+                            <div class="col card-hr-col">
+                              <img src="./images/card-hr.png" alt="" />
+                            </div>
                           </div>
-                        </div>
-                        <div class="row mb-5">
-                          <div class="col">
-                            <div class="dropdown">
-                              <button class="btn dropdown-toggle" type="button" id="triggerId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="./images/main-logo.png" class="dropdoown-img" alt="" /> <span class="text-uppercase run-span">Tournament Run BY</span></button>
-                              <div class="dropdown-menu" aria-labelledby="triggerId">
-                                <button class="dropdown-item" href="#">Action</button>
+                          <div class="row mb-3">
+                            <div class="col">
+                              <!-- <div class="dropdown">
+                                <button class="btn dropdown-toggle" type="button" id="triggerId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="./images/main-logo.png" class="dropdoown-img" alt="" /> <span class="text-uppercase run-span">Tournament Run BY</span></button>
+                                <div class="dropdown-menu" aria-labelledby="triggerId">
+                                  <button class="dropdown-item" href="#">Action</button>
+                                </div>
+                              </div> -->
+                              <div class="tournament-run-by-div">
+                                <div class="row">
+                                  <div class="col-3">
+                                    <img src="./images/starlogo.png" width="59px" alt="" />
+                                  </div>
+                                  <div class="col">
+                                    <p class="tournament-run-by-txt">Tournament Run BY</p>
+                                    <p class="tournament-star-txt">Star</p>
+                                  </div>
+                                </div>
                               </div>
                             </div>
                           </div>
-                        </div>
-                        <div class="row">
-                          <div class="col-2">
-                            <img src="./images/ae.png" class="silver-img" alt="" />
+                          <div class="row">
+                            <div class="col-3">
+                              <img src="./images/ae.png" class="silver-img" alt="" />
+                            </div>
+                            <div class="col-9">
+                              <h4 class="sliver-txt">100,000 Razer Silver</h4>
+                              <span class="sub-sliver-txt">Total Prizepool divided among all placements </span>
+                            </div>
                           </div>
-                          <div class="col">
-                            <h4 class="sliver-txt">100,000 Razer Silver</h4>
-                            <span class="sub-sliver-txt">Total Prizepool divided among all placements </span>
+                        </div>
+                        <div class="card-footer">
+                          <div class="row">
+                            <div class="col"><p class="spot-left">16 spots left</p></div>
+                            <div class="col">
+                              <a class="btn silver-reg-btn" href="#">Registration now</a>
+                            </div>
                           </div>
                         </div>
                       </div>
-                      <div class="card-footer">
-                        <div class="row">
-                          <div class="col"><p class="spot-left">16 spots left</p></div>
-                          <div class="col">
-                            <a class="btn silver-reg-btn" href="#">Registration now</a>
+                    </div>
+                    <div class="col-md-3">
+                      <div class="card">
+                        <div class="img-part">
+                          <img class="card-img-top" src="./images/League-of-Legends.png" alt="" />
+                          <span class="date"><i class="fa fa-calendar" aria-hidden="true"></i> July, 26 03:05 pm</span>
+                        </div>
+                        <div class="card-body">
+                          <div class="row mb-2">
+                            <div class="col-2"><img src="./images/pngbarn.png" alt="barn" class="bran-img" /></div>
+                            <div class="col"><p class="league-txt">Leagues Of Legends From Home: Community Tournament 1v1</p></div>
+                          </div>
+                          <div class="row mb-3">
+                            <div class="col">
+                              <span class="single-text">1v1 - Single Elimination</span>
+                            </div>
+                            <div class="col card-hr-col">
+                              <img src="./images/card-hr.png" alt="" />
+                            </div>
+                          </div>
+                          <div class="row mb-3">
+                            <div class="col">
+                              <!-- <div class="dropdown">
+                                <button class="btn dropdown-toggle" type="button" id="triggerId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="./images/main-logo.png" class="dropdoown-img" alt="" /> <span class="text-uppercase run-span">Tournament Run BY</span></button>
+                                <div class="dropdown-menu" aria-labelledby="triggerId">
+                                  <button class="dropdown-item" href="#">Action</button>
+                                </div>
+                              </div> -->
+                              <div class="tournament-run-by-div">
+                                <div class="row">
+                                  <div class="col-3">
+                                    <img src="./images/starlogo.png" width="59px" alt="" />
+                                  </div>
+                                  <div class="col">
+                                    <p class="tournament-run-by-txt">Tournament Run BY</p>
+                                    <p class="tournament-star-txt">Star</p>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="col-3">
+                              <img src="./images/ae.png" class="silver-img" alt="" />
+                            </div>
+                            <div class="col-9">
+                              <h4 class="sliver-txt">100,000 Razer Silver</h4>
+                              <span class="sub-sliver-txt">Total Prizepool divided among all placements </span>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="card-footer">
+                          <div class="row">
+                            <div class="col"><p class="spot-left">16 spots left</p></div>
+                            <div class="col">
+                              <a class="btn silver-reg-btn" href="#">Registration now</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-3">
+                      <div class="card">
+                        <div class="img-part">
+                          <img class="card-img-top" src="./images/League-of-Legends.png" alt="" />
+                          <span class="date"><i class="fa fa-calendar" aria-hidden="true"></i> July, 26 03:05 pm</span>
+                        </div>
+                        <div class="card-body">
+                          <div class="row mb-2">
+                            <div class="col-2"><img src="./images/pngbarn.png" alt="barn" class="bran-img" /></div>
+                            <div class="col"><p class="league-txt">Leagues Of Legends From Home: Community Tournament 1v1</p></div>
+                          </div>
+                          <div class="row mb-3">
+                            <div class="col">
+                              <span class="single-text">1v1 - Single Elimination</span>
+                            </div>
+                            <div class="col card-hr-col">
+                              <img src="./images/card-hr.png" alt="" />
+                            </div>
+                          </div>
+                          <div class="row mb-3">
+                            <div class="col">
+                              <!-- <div class="dropdown">
+                                <button class="btn dropdown-toggle" type="button" id="triggerId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="./images/main-logo.png" class="dropdoown-img" alt="" /> <span class="text-uppercase run-span">Tournament Run BY</span></button>
+                                <div class="dropdown-menu" aria-labelledby="triggerId">
+                                  <button class="dropdown-item" href="#">Action</button>
+                                </div>
+                              </div> -->
+                              <div class="tournament-run-by-div">
+                                <div class="row">
+                                  <div class="col-3">
+                                    <img src="./images/starlogo.png" width="59px" alt="" />
+                                  </div>
+                                  <div class="col">
+                                    <p class="tournament-run-by-txt">Tournament Run BY</p>
+                                    <p class="tournament-star-txt">Star</p>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="col-3">
+                              <img src="./images/ae.png" class="silver-img" alt="" />
+                            </div>
+                            <div class="col-9">
+                              <h4 class="sliver-txt">100,000 Razer Silver</h4>
+                              <span class="sub-sliver-txt">Total Prizepool divided among all placements </span>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="card-footer">
+                          <div class="row">
+                            <div class="col"><p class="spot-left">16 spots left</p></div>
+                            <div class="col">
+                              <a class="btn silver-reg-btn" href="#">Registration now</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-3">
+                      <div class="card">
+                        <div class="img-part">
+                          <img class="card-img-top" src="./images/League-of-Legends.png" alt="" />
+                          <span class="date"><i class="fa fa-calendar" aria-hidden="true"></i> July, 26 03:05 pm</span>
+                        </div>
+                        <div class="card-body">
+                          <div class="row mb-2">
+                            <div class="col-2"><img src="./images/pngbarn.png" alt="barn" class="bran-img" /></div>
+                            <div class="col"><p class="league-txt">Leagues Of Legends From Home: Community Tournament 1v1</p></div>
+                          </div>
+                          <div class="row mb-3">
+                            <div class="col">
+                              <span class="single-text">1v1 - Single Elimination</span>
+                            </div>
+                            <div class="col card-hr-col">
+                              <img src="./images/card-hr.png" alt="" />
+                            </div>
+                          </div>
+                          <div class="row mb-3">
+                            <div class="col">
+                              <!-- <div class="dropdown">
+                                <button class="btn dropdown-toggle" type="button" id="triggerId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="./images/main-logo.png" class="dropdoown-img" alt="" /> <span class="text-uppercase run-span">Tournament Run BY</span></button>
+                                <div class="dropdown-menu" aria-labelledby="triggerId">
+                                  <button class="dropdown-item" href="#">Action</button>
+                                </div>
+                              </div> -->
+                              <div class="tournament-run-by-div">
+                                <div class="row">
+                                  <div class="col-3">
+                                    <img src="./images/starlogo.png" width="59px" alt="" />
+                                  </div>
+                                  <div class="col">
+                                    <p class="tournament-run-by-txt">Tournament Run BY</p>
+                                    <p class="tournament-star-txt">Star</p>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="col-3">
+                              <img src="./images/ae.png" class="silver-img" alt="" />
+                            </div>
+                            <div class="col-9">
+                              <h4 class="sliver-txt">100,000 Razer Silver</h4>
+                              <span class="sub-sliver-txt">Total Prizepool divided among all placements </span>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="card-footer">
+                          <div class="row">
+                            <div class="col"><p class="spot-left">16 spots left</p></div>
+                            <div class="col">
+                              <a class="btn silver-reg-btn" href="#">Registration now</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-3">
+                      <div class="card">
+                        <div class="img-part">
+                          <img class="card-img-top" src="./images/League-of-Legends.png" alt="" />
+                          <span class="date"><i class="fa fa-calendar" aria-hidden="true"></i> July, 26 03:05 pm</span>
+                        </div>
+                        <div class="card-body">
+                          <div class="row mb-2">
+                            <div class="col-2"><img src="./images/pngbarn.png" alt="barn" class="bran-img" /></div>
+                            <div class="col"><p class="league-txt">Leagues Of Legends From Home: Community Tournament 1v1</p></div>
+                          </div>
+                          <div class="row mb-3">
+                            <div class="col">
+                              <span class="single-text">1v1 - Single Elimination</span>
+                            </div>
+                            <div class="col card-hr-col">
+                              <img src="./images/card-hr.png" alt="" />
+                            </div>
+                          </div>
+                          <div class="row mb-3">
+                            <div class="col">
+                              <!-- <div class="dropdown">
+                                <button class="btn dropdown-toggle" type="button" id="triggerId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="./images/main-logo.png" class="dropdoown-img" alt="" /> <span class="text-uppercase run-span">Tournament Run BY</span></button>
+                                <div class="dropdown-menu" aria-labelledby="triggerId">
+                                  <button class="dropdown-item" href="#">Action</button>
+                                </div>
+                              </div> -->
+                              <div class="tournament-run-by-div">
+                                <div class="row">
+                                  <div class="col-3">
+                                    <img src="./images/starlogo.png" width="59px" alt="" />
+                                  </div>
+                                  <div class="col">
+                                    <p class="tournament-run-by-txt">Tournament Run BY</p>
+                                    <p class="tournament-star-txt">Star</p>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="col-3">
+                              <img src="./images/ae.png" class="silver-img" alt="" />
+                            </div>
+                            <div class="col-9">
+                              <h4 class="sliver-txt">100,000 Razer Silver</h4>
+                              <span class="sub-sliver-txt">Total Prizepool divided among all placements </span>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="card-footer">
+                          <div class="row">
+                            <div class="col"><p class="spot-left">16 spots left</p></div>
+                            <div class="col">
+                              <a class="btn silver-reg-btn" href="#">Registration now</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-3">
+                      <div class="card">
+                        <div class="img-part">
+                          <img class="card-img-top" src="./images/League-of-Legends.png" alt="" />
+                          <span class="date"><i class="fa fa-calendar" aria-hidden="true"></i> July, 26 03:05 pm</span>
+                        </div>
+                        <div class="card-body">
+                          <div class="row mb-2">
+                            <div class="col-2"><img src="./images/pngbarn.png" alt="barn" class="bran-img" /></div>
+                            <div class="col"><p class="league-txt">Leagues Of Legends From Home: Community Tournament 1v1</p></div>
+                          </div>
+                          <div class="row mb-3">
+                            <div class="col">
+                              <span class="single-text">1v1 - Single Elimination</span>
+                            </div>
+                            <div class="col card-hr-col">
+                              <img src="./images/card-hr.png" alt="" />
+                            </div>
+                          </div>
+                          <div class="row mb-3">
+                            <div class="col">
+                              <!-- <div class="dropdown">
+                                <button class="btn dropdown-toggle" type="button" id="triggerId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="./images/main-logo.png" class="dropdoown-img" alt="" /> <span class="text-uppercase run-span">Tournament Run BY</span></button>
+                                <div class="dropdown-menu" aria-labelledby="triggerId">
+                                  <button class="dropdown-item" href="#">Action</button>
+                                </div>
+                              </div> -->
+                              <div class="tournament-run-by-div">
+                                <div class="row">
+                                  <div class="col-3">
+                                    <img src="./images/starlogo.png" width="59px" alt="" />
+                                  </div>
+                                  <div class="col">
+                                    <p class="tournament-run-by-txt">Tournament Run BY</p>
+                                    <p class="tournament-star-txt">Star</p>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="col-3">
+                              <img src="./images/ae.png" class="silver-img" alt="" />
+                            </div>
+                            <div class="col-9">
+                              <h4 class="sliver-txt">100,000 Razer Silver</h4>
+                              <span class="sub-sliver-txt">Total Prizepool divided among all placements </span>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="card-footer">
+                          <div class="row">
+                            <div class="col"><p class="spot-left">16 spots left</p></div>
+                            <div class="col">
+                              <a class="btn silver-reg-btn" href="#">Registration now</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-3">
+                      <div class="card">
+                        <div class="img-part">
+                          <img class="card-img-top" src="./images/League-of-Legends.png" alt="" />
+                          <span class="date"><i class="fa fa-calendar" aria-hidden="true"></i> July, 26 03:05 pm</span>
+                        </div>
+                        <div class="card-body">
+                          <div class="row mb-2">
+                            <div class="col-2"><img src="./images/pngbarn.png" alt="barn" class="bran-img" /></div>
+                            <div class="col"><p class="league-txt">Leagues Of Legends From Home: Community Tournament 1v1</p></div>
+                          </div>
+                          <div class="row mb-3">
+                            <div class="col">
+                              <span class="single-text">1v1 - Single Elimination</span>
+                            </div>
+                            <div class="col card-hr-col">
+                              <img src="./images/card-hr.png" alt="" />
+                            </div>
+                          </div>
+                          <div class="row mb-3">
+                            <div class="col">
+                              <!-- <div class="dropdown">
+                                <button class="btn dropdown-toggle" type="button" id="triggerId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="./images/main-logo.png" class="dropdoown-img" alt="" /> <span class="text-uppercase run-span">Tournament Run BY</span></button>
+                                <div class="dropdown-menu" aria-labelledby="triggerId">
+                                  <button class="dropdown-item" href="#">Action</button>
+                                </div>
+                              </div> -->
+                              <div class="tournament-run-by-div">
+                                <div class="row">
+                                  <div class="col-3">
+                                    <img src="./images/starlogo.png" width="59px" alt="" />
+                                  </div>
+                                  <div class="col">
+                                    <p class="tournament-run-by-txt">Tournament Run BY</p>
+                                    <p class="tournament-star-txt">Star</p>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="col-3">
+                              <img src="./images/ae.png" class="silver-img" alt="" />
+                            </div>
+                            <div class="col-9">
+                              <h4 class="sliver-txt">100,000 Razer Silver</h4>
+                              <span class="sub-sliver-txt">Total Prizepool divided among all placements </span>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="card-footer">
+                          <div class="row">
+                            <div class="col"><p class="spot-left">16 spots left</p></div>
+                            <div class="col">
+                              <a class="btn silver-reg-btn" href="#">Registration now</a>
+                            </div>
                           </div>
                         </div>
                       </div>
                     </div>
                   </div>
-                  <div class="col-md-3">
-                    <div class="card">
-                      <div class="img-part">
-                        <img class="card-img-top" src="./images/League-of-Legends.png" alt="" />
-                        <span class="date"><i class="fa fa-calendar" aria-hidden="true"></i> July, 26 03:05 pm</span>
-                      </div>
-                      <div class="card-body">
-                        <div class="row mb-2">
-                          <div class="col-2"><img src="./images/pngbarn.png" alt="barn" class="bran-img" /></div>
-                          <div class="col"><p class="league-txt">Leagues Of Legends From Home: Community Tournament 1v1</p></div>
+                  <div class="row sugggested-row tournament-cards-row card-slider-nav">
+                    <div class="col-md-3">
+                      <div class="card">
+                        <div class="img-part">
+                          <img class="card-img-top" src="./images/League-of-Legends.png" alt="" />
+                          <span class="date"><i class="fa fa-calendar" aria-hidden="true"></i> July, 26 03:05 pm</span>
                         </div>
-                        <div class="row mb-5">
-                          <div class="col">
-                            <span class="single-text">1v1 - Single Elimination</span>
+                        <div class="card-body">
+                          <div class="row mb-2">
+                            <div class="col-2"><img src="./images/pngbarn.png" alt="barn" class="bran-img" /></div>
+                            <div class="col"><p class="league-txt">Leagues Of Legends From Home: Community Tournament 1v1</p></div>
                           </div>
-                          <div class="col card-hr-col">
-                            <img src="./images/card-hr.png" alt="" />
+                          <div class="row mb-3">
+                            <div class="col">
+                              <span class="single-text">1v1 - Single Elimination</span>
+                            </div>
+                            <div class="col card-hr-col">
+                              <img src="./images/card-hr.png" alt="" />
+                            </div>
                           </div>
-                        </div>
-                        <div class="row mb-5">
-                          <div class="col">
-                            <div class="dropdown">
-                              <button class="btn dropdown-toggle" type="button" id="triggerId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="./images/main-logo.png" class="dropdoown-img" alt="" /> <span class="text-uppercase run-span">Tournament Run BY</span></button>
-                              <div class="dropdown-menu" aria-labelledby="triggerId">
-                                <button class="dropdown-item" href="#">Action</button>
+                          <div class="row mb-3">
+                            <div class="col">
+                              <!-- <div class="dropdown">
+                                <button class="btn dropdown-toggle" type="button" id="triggerId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="./images/main-logo.png" class="dropdoown-img" alt="" /> <span class="text-uppercase run-span">Tournament Run BY</span></button>
+                                <div class="dropdown-menu" aria-labelledby="triggerId">
+                                  <button class="dropdown-item" href="#">Action</button>
+                                </div>
+                              </div> -->
+                              <div class="tournament-run-by-div">
+                                <div class="row">
+                                  <div class="col-3">
+                                    <img src="./images/starlogo.png" width="59px" alt="" />
+                                  </div>
+                                  <div class="col">
+                                    <p class="tournament-run-by-txt">Tournament Run BY</p>
+                                    <p class="tournament-star-txt">Star</p>
+                                  </div>
+                                </div>
                               </div>
                             </div>
                           </div>
-                        </div>
-                        <div class="row">
-                          <div class="col-2">
-                            <img src="./images/ae.png" class="silver-img" alt="" />
+                          <div class="row">
+                            <div class="col-3">
+                              <img src="./images/ae.png" class="silver-img" alt="" />
+                            </div>
+                            <div class="col-9">
+                              <h4 class="sliver-txt">100,000 Razer Silver</h4>
+                              <span class="sub-sliver-txt">Total Prizepool divided among all placements </span>
+                            </div>
                           </div>
-                          <div class="col">
-                            <h4 class="sliver-txt">100,000 Razer Silver</h4>
-                            <span class="sub-sliver-txt">Total Prizepool divided among all placements </span>
+                        </div>
+                        <div class="card-footer">
+                          <div class="row">
+                            <div class="col"><p class="spot-left">16 spots left</p></div>
+                            <div class="col">
+                              <a class="btn silver-reg-btn" href="#">Registration now</a>
+                            </div>
                           </div>
                         </div>
                       </div>
-                      <div class="card-footer">
-                        <div class="row">
-                          <div class="col"><p class="spot-left">16 spots left</p></div>
-                          <div class="col">
-                            <a class="btn silver-reg-btn" href="#">Registration now</a>
+                    </div>
+                    <div class="col-md-3">
+                      <div class="card">
+                        <div class="img-part">
+                          <img class="card-img-top" src="./images/League-of-Legends.png" alt="" />
+                          <span class="date"><i class="fa fa-calendar" aria-hidden="true"></i> July, 26 03:05 pm</span>
+                        </div>
+                        <div class="card-body">
+                          <div class="row mb-2">
+                            <div class="col-2"><img src="./images/pngbarn.png" alt="barn" class="bran-img" /></div>
+                            <div class="col"><p class="league-txt">Leagues Of Legends From Home: Community Tournament 1v1</p></div>
+                          </div>
+                          <div class="row mb-3">
+                            <div class="col">
+                              <span class="single-text">1v1 - Single Elimination</span>
+                            </div>
+                            <div class="col card-hr-col">
+                              <img src="./images/card-hr.png" alt="" />
+                            </div>
+                          </div>
+                          <div class="row mb-3">
+                            <div class="col">
+                              <!-- <div class="dropdown">
+                                <button class="btn dropdown-toggle" type="button" id="triggerId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="./images/main-logo.png" class="dropdoown-img" alt="" /> <span class="text-uppercase run-span">Tournament Run BY</span></button>
+                                <div class="dropdown-menu" aria-labelledby="triggerId">
+                                  <button class="dropdown-item" href="#">Action</button>
+                                </div>
+                              </div> -->
+                              <div class="tournament-run-by-div">
+                                <div class="row">
+                                  <div class="col-3">
+                                    <img src="./images/starlogo.png" width="59px" alt="" />
+                                  </div>
+                                  <div class="col">
+                                    <p class="tournament-run-by-txt">Tournament Run BY</p>
+                                    <p class="tournament-star-txt">Star</p>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="col-3">
+                              <img src="./images/ae.png" class="silver-img" alt="" />
+                            </div>
+                            <div class="col-9">
+                              <h4 class="sliver-txt">100,000 Razer Silver</h4>
+                              <span class="sub-sliver-txt">Total Prizepool divided among all placements </span>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="card-footer">
+                          <div class="row">
+                            <div class="col"><p class="spot-left">16 spots left</p></div>
+                            <div class="col">
+                              <a class="btn silver-reg-btn" href="#">Registration now</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-3">
+                      <div class="card">
+                        <div class="img-part">
+                          <img class="card-img-top" src="./images/League-of-Legends.png" alt="" />
+                          <span class="date"><i class="fa fa-calendar" aria-hidden="true"></i> July, 26 03:05 pm</span>
+                        </div>
+                        <div class="card-body">
+                          <div class="row mb-2">
+                            <div class="col-2"><img src="./images/pngbarn.png" alt="barn" class="bran-img" /></div>
+                            <div class="col"><p class="league-txt">Leagues Of Legends From Home: Community Tournament 1v1</p></div>
+                          </div>
+                          <div class="row mb-3">
+                            <div class="col">
+                              <span class="single-text">1v1 - Single Elimination</span>
+                            </div>
+                            <div class="col card-hr-col">
+                              <img src="./images/card-hr.png" alt="" />
+                            </div>
+                          </div>
+                          <div class="row mb-3">
+                            <div class="col">
+                              <!-- <div class="dropdown">
+                                <button class="btn dropdown-toggle" type="button" id="triggerId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="./images/main-logo.png" class="dropdoown-img" alt="" /> <span class="text-uppercase run-span">Tournament Run BY</span></button>
+                                <div class="dropdown-menu" aria-labelledby="triggerId">
+                                  <button class="dropdown-item" href="#">Action</button>
+                                </div>
+                              </div> -->
+                              <div class="tournament-run-by-div">
+                                <div class="row">
+                                  <div class="col-3">
+                                    <img src="./images/starlogo.png" width="59px" alt="" />
+                                  </div>
+                                  <div class="col">
+                                    <p class="tournament-run-by-txt">Tournament Run BY</p>
+                                    <p class="tournament-star-txt">Star</p>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="col-3">
+                              <img src="./images/ae.png" class="silver-img" alt="" />
+                            </div>
+                            <div class="col-9">
+                              <h4 class="sliver-txt">100,000 Razer Silver</h4>
+                              <span class="sub-sliver-txt">Total Prizepool divided among all placements </span>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="card-footer">
+                          <div class="row">
+                            <div class="col"><p class="spot-left">16 spots left</p></div>
+                            <div class="col">
+                              <a class="btn silver-reg-btn" href="#">Registration now</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-3">
+                      <div class="card">
+                        <div class="img-part">
+                          <img class="card-img-top" src="./images/League-of-Legends.png" alt="" />
+                          <span class="date"><i class="fa fa-calendar" aria-hidden="true"></i> July, 26 03:05 pm</span>
+                        </div>
+                        <div class="card-body">
+                          <div class="row mb-2">
+                            <div class="col-2"><img src="./images/pngbarn.png" alt="barn" class="bran-img" /></div>
+                            <div class="col"><p class="league-txt">Leagues Of Legends From Home: Community Tournament 1v1</p></div>
+                          </div>
+                          <div class="row mb-3">
+                            <div class="col">
+                              <span class="single-text">1v1 - Single Elimination</span>
+                            </div>
+                            <div class="col card-hr-col">
+                              <img src="./images/card-hr.png" alt="" />
+                            </div>
+                          </div>
+                          <div class="row mb-3">
+                            <div class="col">
+                              <!-- <div class="dropdown">
+                                <button class="btn dropdown-toggle" type="button" id="triggerId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="./images/main-logo.png" class="dropdoown-img" alt="" /> <span class="text-uppercase run-span">Tournament Run BY</span></button>
+                                <div class="dropdown-menu" aria-labelledby="triggerId">
+                                  <button class="dropdown-item" href="#">Action</button>
+                                </div>
+                              </div> -->
+                              <div class="tournament-run-by-div">
+                                <div class="row">
+                                  <div class="col-3">
+                                    <img src="./images/starlogo.png" width="59px" alt="" />
+                                  </div>
+                                  <div class="col">
+                                    <p class="tournament-run-by-txt">Tournament Run BY</p>
+                                    <p class="tournament-star-txt">Star</p>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="col-3">
+                              <img src="./images/ae.png" class="silver-img" alt="" />
+                            </div>
+                            <div class="col-9">
+                              <h4 class="sliver-txt">100,000 Razer Silver</h4>
+                              <span class="sub-sliver-txt">Total Prizepool divided among all placements </span>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="card-footer">
+                          <div class="row">
+                            <div class="col"><p class="spot-left">16 spots left</p></div>
+                            <div class="col">
+                              <a class="btn silver-reg-btn" href="#">Registration now</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-3">
+                      <div class="card">
+                        <div class="img-part">
+                          <img class="card-img-top" src="./images/League-of-Legends.png" alt="" />
+                          <span class="date"><i class="fa fa-calendar" aria-hidden="true"></i> July, 26 03:05 pm</span>
+                        </div>
+                        <div class="card-body">
+                          <div class="row mb-2">
+                            <div class="col-2"><img src="./images/pngbarn.png" alt="barn" class="bran-img" /></div>
+                            <div class="col"><p class="league-txt">Leagues Of Legends From Home: Community Tournament 1v1</p></div>
+                          </div>
+                          <div class="row mb-3">
+                            <div class="col">
+                              <span class="single-text">1v1 - Single Elimination</span>
+                            </div>
+                            <div class="col card-hr-col">
+                              <img src="./images/card-hr.png" alt="" />
+                            </div>
+                          </div>
+                          <div class="row mb-3">
+                            <div class="col">
+                              <!-- <div class="dropdown">
+                                <button class="btn dropdown-toggle" type="button" id="triggerId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="./images/main-logo.png" class="dropdoown-img" alt="" /> <span class="text-uppercase run-span">Tournament Run BY</span></button>
+                                <div class="dropdown-menu" aria-labelledby="triggerId">
+                                  <button class="dropdown-item" href="#">Action</button>
+                                </div>
+                              </div> -->
+                              <div class="tournament-run-by-div">
+                                <div class="row">
+                                  <div class="col-3">
+                                    <img src="./images/starlogo.png" width="59px" alt="" />
+                                  </div>
+                                  <div class="col">
+                                    <p class="tournament-run-by-txt">Tournament Run BY</p>
+                                    <p class="tournament-star-txt">Star</p>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="col-3">
+                              <img src="./images/ae.png" class="silver-img" alt="" />
+                            </div>
+                            <div class="col-9">
+                              <h4 class="sliver-txt">100,000 Razer Silver</h4>
+                              <span class="sub-sliver-txt">Total Prizepool divided among all placements </span>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="card-footer">
+                          <div class="row">
+                            <div class="col"><p class="spot-left">16 spots left</p></div>
+                            <div class="col">
+                              <a class="btn silver-reg-btn" href="#">Registration now</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-3">
+                      <div class="card">
+                        <div class="img-part">
+                          <img class="card-img-top" src="./images/League-of-Legends.png" alt="" />
+                          <span class="date"><i class="fa fa-calendar" aria-hidden="true"></i> July, 26 03:05 pm</span>
+                        </div>
+                        <div class="card-body">
+                          <div class="row mb-2">
+                            <div class="col-2"><img src="./images/pngbarn.png" alt="barn" class="bran-img" /></div>
+                            <div class="col"><p class="league-txt">Leagues Of Legends From Home: Community Tournament 1v1</p></div>
+                          </div>
+                          <div class="row mb-3">
+                            <div class="col">
+                              <span class="single-text">1v1 - Single Elimination</span>
+                            </div>
+                            <div class="col card-hr-col">
+                              <img src="./images/card-hr.png" alt="" />
+                            </div>
+                          </div>
+                          <div class="row mb-3">
+                            <div class="col">
+                              <!-- <div class="dropdown">
+                                <button class="btn dropdown-toggle" type="button" id="triggerId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="./images/main-logo.png" class="dropdoown-img" alt="" /> <span class="text-uppercase run-span">Tournament Run BY</span></button>
+                                <div class="dropdown-menu" aria-labelledby="triggerId">
+                                  <button class="dropdown-item" href="#">Action</button>
+                                </div>
+                              </div> -->
+                              <div class="tournament-run-by-div">
+                                <div class="row">
+                                  <div class="col-3">
+                                    <img src="./images/starlogo.png" width="59px" alt="" />
+                                  </div>
+                                  <div class="col">
+                                    <p class="tournament-run-by-txt">Tournament Run BY</p>
+                                    <p class="tournament-star-txt">Star</p>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="col-3">
+                              <img src="./images/ae.png" class="silver-img" alt="" />
+                            </div>
+                            <div class="col-9">
+                              <h4 class="sliver-txt">100,000 Razer Silver</h4>
+                              <span class="sub-sliver-txt">Total Prizepool divided among all placements </span>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="card-footer">
+                          <div class="row">
+                            <div class="col"><p class="spot-left">16 spots left</p></div>
+                            <div class="col">
+                              <a class="btn silver-reg-btn" href="#">Registration now</a>
+                            </div>
                           </div>
                         </div>
                       </div>
                     </div>
                   </div>
-                  <div class="col-md-3">
-                    <div class="card">
-                      <div class="img-part">
-                        <img class="card-img-top" src="./images/League-of-Legends.png" alt="" />
-                        <span class="date"><i class="fa fa-calendar" aria-hidden="true"></i> July, 26 03:05 pm</span>
-                      </div>
-                      <div class="card-body">
-                        <div class="row mb-2">
-                          <div class="col-2"><img src="./images/pngbarn.png" alt="barn" class="bran-img" /></div>
-                          <div class="col"><p class="league-txt">Leagues Of Legends From Home: Community Tournament 1v1</p></div>
+                  <div class="row sugggested-row tournament-cards-row card-slider-nav">
+                    <div class="col-md-3">
+                      <div class="card">
+                        <div class="img-part">
+                          <img class="card-img-top" src="./images/League-of-Legends.png" alt="" />
+                          <span class="date"><i class="fa fa-calendar" aria-hidden="true"></i> July, 26 03:05 pm</span>
                         </div>
-                        <div class="row mb-5">
-                          <div class="col">
-                            <span class="single-text">1v1 - Single Elimination</span>
+                        <div class="card-body">
+                          <div class="row mb-2">
+                            <div class="col-2"><img src="./images/pngbarn.png" alt="barn" class="bran-img" /></div>
+                            <div class="col"><p class="league-txt">Leagues Of Legends From Home: Community Tournament 1v1</p></div>
                           </div>
-                          <div class="col card-hr-col">
-                            <img src="./images/card-hr.png" alt="" />
+                          <div class="row mb-3">
+                            <div class="col">
+                              <span class="single-text">1v1 - Single Elimination</span>
+                            </div>
+                            <div class="col card-hr-col">
+                              <img src="./images/card-hr.png" alt="" />
+                            </div>
                           </div>
-                        </div>
-                        <div class="row mb-5">
-                          <div class="col">
-                            <div class="dropdown">
-                              <button class="btn dropdown-toggle" type="button" id="triggerId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="./images/main-logo.png" class="dropdoown-img" alt="" /> <span class="text-uppercase run-span">Tournament Run BY</span></button>
-                              <div class="dropdown-menu" aria-labelledby="triggerId">
-                                <button class="dropdown-item" href="#">Action</button>
+                          <div class="row mb-3">
+                            <div class="col">
+                              <!-- <div class="dropdown">
+                                <button class="btn dropdown-toggle" type="button" id="triggerId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="./images/main-logo.png" class="dropdoown-img" alt="" /> <span class="text-uppercase run-span">Tournament Run BY</span></button>
+                                <div class="dropdown-menu" aria-labelledby="triggerId">
+                                  <button class="dropdown-item" href="#">Action</button>
+                                </div>
+                              </div> -->
+                              <div class="tournament-run-by-div">
+                                <div class="row">
+                                  <div class="col-3">
+                                    <img src="./images/starlogo.png" width="59px" alt="" />
+                                  </div>
+                                  <div class="col">
+                                    <p class="tournament-run-by-txt">Tournament Run BY</p>
+                                    <p class="tournament-star-txt">Star</p>
+                                  </div>
+                                </div>
                               </div>
                             </div>
                           </div>
-                        </div>
-                        <div class="row">
-                          <div class="col-2">
-                            <img src="./images/ae.png" class="silver-img" alt="" />
+                          <div class="row">
+                            <div class="col-3">
+                              <img src="./images/ae.png" class="silver-img" alt="" />
+                            </div>
+                            <div class="col-9">
+                              <h4 class="sliver-txt">100,000 Razer Silver</h4>
+                              <span class="sub-sliver-txt">Total Prizepool divided among all placements </span>
+                            </div>
                           </div>
-                          <div class="col">
-                            <h4 class="sliver-txt">100,000 Razer Silver</h4>
-                            <span class="sub-sliver-txt">Total Prizepool divided among all placements </span>
+                        </div>
+                        <div class="card-footer">
+                          <div class="row">
+                            <div class="col"><p class="spot-left">16 spots left</p></div>
+                            <div class="col">
+                              <a class="btn silver-reg-btn" href="#">Registration now</a>
+                            </div>
                           </div>
                         </div>
                       </div>
-                      <div class="card-footer">
-                        <div class="row">
-                          <div class="col"><p class="spot-left">16 spots left</p></div>
-                          <div class="col">
-                            <a class="btn silver-reg-btn" href="#">Registration now</a>
+                    </div>
+                    <div class="col-md-3">
+                      <div class="card">
+                        <div class="img-part">
+                          <img class="card-img-top" src="./images/League-of-Legends.png" alt="" />
+                          <span class="date"><i class="fa fa-calendar" aria-hidden="true"></i> July, 26 03:05 pm</span>
+                        </div>
+                        <div class="card-body">
+                          <div class="row mb-2">
+                            <div class="col-2"><img src="./images/pngbarn.png" alt="barn" class="bran-img" /></div>
+                            <div class="col"><p class="league-txt">Leagues Of Legends From Home: Community Tournament 1v1</p></div>
+                          </div>
+                          <div class="row mb-3">
+                            <div class="col">
+                              <span class="single-text">1v1 - Single Elimination</span>
+                            </div>
+                            <div class="col card-hr-col">
+                              <img src="./images/card-hr.png" alt="" />
+                            </div>
+                          </div>
+                          <div class="row mb-3">
+                            <div class="col">
+                              <!-- <div class="dropdown">
+                                <button class="btn dropdown-toggle" type="button" id="triggerId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="./images/main-logo.png" class="dropdoown-img" alt="" /> <span class="text-uppercase run-span">Tournament Run BY</span></button>
+                                <div class="dropdown-menu" aria-labelledby="triggerId">
+                                  <button class="dropdown-item" href="#">Action</button>
+                                </div>
+                              </div> -->
+                              <div class="tournament-run-by-div">
+                                <div class="row">
+                                  <div class="col-3">
+                                    <img src="./images/starlogo.png" width="59px" alt="" />
+                                  </div>
+                                  <div class="col">
+                                    <p class="tournament-run-by-txt">Tournament Run BY</p>
+                                    <p class="tournament-star-txt">Star</p>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="col-3">
+                              <img src="./images/ae.png" class="silver-img" alt="" />
+                            </div>
+                            <div class="col-9">
+                              <h4 class="sliver-txt">100,000 Razer Silver</h4>
+                              <span class="sub-sliver-txt">Total Prizepool divided among all placements </span>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="card-footer">
+                          <div class="row">
+                            <div class="col"><p class="spot-left">16 spots left</p></div>
+                            <div class="col">
+                              <a class="btn silver-reg-btn" href="#">Registration now</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-3">
+                      <div class="card">
+                        <div class="img-part">
+                          <img class="card-img-top" src="./images/League-of-Legends.png" alt="" />
+                          <span class="date"><i class="fa fa-calendar" aria-hidden="true"></i> July, 26 03:05 pm</span>
+                        </div>
+                        <div class="card-body">
+                          <div class="row mb-2">
+                            <div class="col-2"><img src="./images/pngbarn.png" alt="barn" class="bran-img" /></div>
+                            <div class="col"><p class="league-txt">Leagues Of Legends From Home: Community Tournament 1v1</p></div>
+                          </div>
+                          <div class="row mb-3">
+                            <div class="col">
+                              <span class="single-text">1v1 - Single Elimination</span>
+                            </div>
+                            <div class="col card-hr-col">
+                              <img src="./images/card-hr.png" alt="" />
+                            </div>
+                          </div>
+                          <div class="row mb-3">
+                            <div class="col">
+                              <!-- <div class="dropdown">
+                                <button class="btn dropdown-toggle" type="button" id="triggerId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="./images/main-logo.png" class="dropdoown-img" alt="" /> <span class="text-uppercase run-span">Tournament Run BY</span></button>
+                                <div class="dropdown-menu" aria-labelledby="triggerId">
+                                  <button class="dropdown-item" href="#">Action</button>
+                                </div>
+                              </div> -->
+                              <div class="tournament-run-by-div">
+                                <div class="row">
+                                  <div class="col-3">
+                                    <img src="./images/starlogo.png" width="59px" alt="" />
+                                  </div>
+                                  <div class="col">
+                                    <p class="tournament-run-by-txt">Tournament Run BY</p>
+                                    <p class="tournament-star-txt">Star</p>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="col-3">
+                              <img src="./images/ae.png" class="silver-img" alt="" />
+                            </div>
+                            <div class="col-9">
+                              <h4 class="sliver-txt">100,000 Razer Silver</h4>
+                              <span class="sub-sliver-txt">Total Prizepool divided among all placements </span>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="card-footer">
+                          <div class="row">
+                            <div class="col"><p class="spot-left">16 spots left</p></div>
+                            <div class="col">
+                              <a class="btn silver-reg-btn" href="#">Registration now</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-3">
+                      <div class="card">
+                        <div class="img-part">
+                          <img class="card-img-top" src="./images/League-of-Legends.png" alt="" />
+                          <span class="date"><i class="fa fa-calendar" aria-hidden="true"></i> July, 26 03:05 pm</span>
+                        </div>
+                        <div class="card-body">
+                          <div class="row mb-2">
+                            <div class="col-2"><img src="./images/pngbarn.png" alt="barn" class="bran-img" /></div>
+                            <div class="col"><p class="league-txt">Leagues Of Legends From Home: Community Tournament 1v1</p></div>
+                          </div>
+                          <div class="row mb-3">
+                            <div class="col">
+                              <span class="single-text">1v1 - Single Elimination</span>
+                            </div>
+                            <div class="col card-hr-col">
+                              <img src="./images/card-hr.png" alt="" />
+                            </div>
+                          </div>
+                          <div class="row mb-3">
+                            <div class="col">
+                              <!-- <div class="dropdown">
+                                <button class="btn dropdown-toggle" type="button" id="triggerId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="./images/main-logo.png" class="dropdoown-img" alt="" /> <span class="text-uppercase run-span">Tournament Run BY</span></button>
+                                <div class="dropdown-menu" aria-labelledby="triggerId">
+                                  <button class="dropdown-item" href="#">Action</button>
+                                </div>
+                              </div> -->
+                              <div class="tournament-run-by-div">
+                                <div class="row">
+                                  <div class="col-3">
+                                    <img src="./images/starlogo.png" width="59px" alt="" />
+                                  </div>
+                                  <div class="col">
+                                    <p class="tournament-run-by-txt">Tournament Run BY</p>
+                                    <p class="tournament-star-txt">Star</p>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="col-3">
+                              <img src="./images/ae.png" class="silver-img" alt="" />
+                            </div>
+                            <div class="col-9">
+                              <h4 class="sliver-txt">100,000 Razer Silver</h4>
+                              <span class="sub-sliver-txt">Total Prizepool divided among all placements </span>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="card-footer">
+                          <div class="row">
+                            <div class="col"><p class="spot-left">16 spots left</p></div>
+                            <div class="col">
+                              <a class="btn silver-reg-btn" href="#">Registration now</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-3">
+                      <div class="card">
+                        <div class="img-part">
+                          <img class="card-img-top" src="./images/League-of-Legends.png" alt="" />
+                          <span class="date"><i class="fa fa-calendar" aria-hidden="true"></i> July, 26 03:05 pm</span>
+                        </div>
+                        <div class="card-body">
+                          <div class="row mb-2">
+                            <div class="col-2"><img src="./images/pngbarn.png" alt="barn" class="bran-img" /></div>
+                            <div class="col"><p class="league-txt">Leagues Of Legends From Home: Community Tournament 1v1</p></div>
+                          </div>
+                          <div class="row mb-3">
+                            <div class="col">
+                              <span class="single-text">1v1 - Single Elimination</span>
+                            </div>
+                            <div class="col card-hr-col">
+                              <img src="./images/card-hr.png" alt="" />
+                            </div>
+                          </div>
+                          <div class="row mb-3">
+                            <div class="col">
+                              <!-- <div class="dropdown">
+                                <button class="btn dropdown-toggle" type="button" id="triggerId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="./images/main-logo.png" class="dropdoown-img" alt="" /> <span class="text-uppercase run-span">Tournament Run BY</span></button>
+                                <div class="dropdown-menu" aria-labelledby="triggerId">
+                                  <button class="dropdown-item" href="#">Action</button>
+                                </div>
+                              </div> -->
+                              <div class="tournament-run-by-div">
+                                <div class="row">
+                                  <div class="col-3">
+                                    <img src="./images/starlogo.png" width="59px" alt="" />
+                                  </div>
+                                  <div class="col">
+                                    <p class="tournament-run-by-txt">Tournament Run BY</p>
+                                    <p class="tournament-star-txt">Star</p>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="col-3">
+                              <img src="./images/ae.png" class="silver-img" alt="" />
+                            </div>
+                            <div class="col-9">
+                              <h4 class="sliver-txt">100,000 Razer Silver</h4>
+                              <span class="sub-sliver-txt">Total Prizepool divided among all placements </span>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="card-footer">
+                          <div class="row">
+                            <div class="col"><p class="spot-left">16 spots left</p></div>
+                            <div class="col">
+                              <a class="btn silver-reg-btn" href="#">Registration now</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-3">
+                      <div class="card">
+                        <div class="img-part">
+                          <img class="card-img-top" src="./images/League-of-Legends.png" alt="" />
+                          <span class="date"><i class="fa fa-calendar" aria-hidden="true"></i> July, 26 03:05 pm</span>
+                        </div>
+                        <div class="card-body">
+                          <div class="row mb-2">
+                            <div class="col-2"><img src="./images/pngbarn.png" alt="barn" class="bran-img" /></div>
+                            <div class="col"><p class="league-txt">Leagues Of Legends From Home: Community Tournament 1v1</p></div>
+                          </div>
+                          <div class="row mb-3">
+                            <div class="col">
+                              <span class="single-text">1v1 - Single Elimination</span>
+                            </div>
+                            <div class="col card-hr-col">
+                              <img src="./images/card-hr.png" alt="" />
+                            </div>
+                          </div>
+                          <div class="row mb-3">
+                            <div class="col">
+                              <!-- <div class="dropdown">
+                                <button class="btn dropdown-toggle" type="button" id="triggerId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="./images/main-logo.png" class="dropdoown-img" alt="" /> <span class="text-uppercase run-span">Tournament Run BY</span></button>
+                                <div class="dropdown-menu" aria-labelledby="triggerId">
+                                  <button class="dropdown-item" href="#">Action</button>
+                                </div>
+                              </div> -->
+                              <div class="tournament-run-by-div">
+                                <div class="row">
+                                  <div class="col-3">
+                                    <img src="./images/starlogo.png" width="59px" alt="" />
+                                  </div>
+                                  <div class="col">
+                                    <p class="tournament-run-by-txt">Tournament Run BY</p>
+                                    <p class="tournament-star-txt">Star</p>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="col-3">
+                              <img src="./images/ae.png" class="silver-img" alt="" />
+                            </div>
+                            <div class="col-9">
+                              <h4 class="sliver-txt">100,000 Razer Silver</h4>
+                              <span class="sub-sliver-txt">Total Prizepool divided among all placements </span>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="card-footer">
+                          <div class="row">
+                            <div class="col"><p class="spot-left">16 spots left</p></div>
+                            <div class="col">
+                              <a class="btn silver-reg-btn" href="#">Registration now</a>
+                            </div>
                           </div>
                         </div>
                       </div>
                     </div>
                   </div>
-                  <div class="col-md-3">
-                    <div class="card">
-                      <div class="img-part">
-                        <img class="card-img-top" src="./images/League-of-Legends.png" alt="" />
-                        <span class="date"><i class="fa fa-calendar" aria-hidden="true"></i> July, 26 03:05 pm</span>
-                      </div>
-                      <div class="card-body">
-                        <div class="row mb-2">
-                          <div class="col-2"><img src="./images/pngbarn.png" alt="barn" class="bran-img" /></div>
-                          <div class="col"><p class="league-txt">Leagues Of Legends From Home: Community Tournament 1v1</p></div>
+                  <div class="row sugggested-row tournament-cards-row card-slider-nav">
+                    <div class="col-md-3">
+                      <div class="card">
+                        <div class="img-part">
+                          <img class="card-img-top" src="./images/League-of-Legends.png" alt="" />
+                          <span class="date"><i class="fa fa-calendar" aria-hidden="true"></i> July, 26 03:05 pm</span>
                         </div>
-                        <div class="row mb-5">
-                          <div class="col">
-                            <span class="single-text">1v1 - Single Elimination</span>
+                        <div class="card-body">
+                          <div class="row mb-2">
+                            <div class="col-2"><img src="./images/pngbarn.png" alt="barn" class="bran-img" /></div>
+                            <div class="col"><p class="league-txt">Leagues Of Legends From Home: Community Tournament 1v1</p></div>
                           </div>
-                          <div class="col card-hr-col">
-                            <img src="./images/card-hr.png" alt="" />
+                          <div class="row mb-3">
+                            <div class="col">
+                              <span class="single-text">1v1 - Single Elimination</span>
+                            </div>
+                            <div class="col card-hr-col">
+                              <img src="./images/card-hr.png" alt="" />
+                            </div>
                           </div>
-                        </div>
-                        <div class="row mb-5">
-                          <div class="col">
-                            <div class="dropdown">
-                              <button class="btn dropdown-toggle" type="button" id="triggerId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="./images/main-logo.png" class="dropdoown-img" alt="" /> <span class="text-uppercase run-span">Tournament Run BY</span></button>
-                              <div class="dropdown-menu" aria-labelledby="triggerId">
-                                <button class="dropdown-item" href="#">Action</button>
+                          <div class="row mb-3">
+                            <div class="col">
+                              <!-- <div class="dropdown">
+                                <button class="btn dropdown-toggle" type="button" id="triggerId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="./images/main-logo.png" class="dropdoown-img" alt="" /> <span class="text-uppercase run-span">Tournament Run BY</span></button>
+                                <div class="dropdown-menu" aria-labelledby="triggerId">
+                                  <button class="dropdown-item" href="#">Action</button>
+                                </div>
+                              </div> -->
+                              <div class="tournament-run-by-div">
+                                <div class="row">
+                                  <div class="col-3">
+                                    <img src="./images/starlogo.png" width="59px" alt="" />
+                                  </div>
+                                  <div class="col">
+                                    <p class="tournament-run-by-txt">Tournament Run BY</p>
+                                    <p class="tournament-star-txt">Star</p>
+                                  </div>
+                                </div>
                               </div>
                             </div>
                           </div>
-                        </div>
-                        <div class="row">
-                          <div class="col-2">
-                            <img src="./images/ae.png" class="silver-img" alt="" />
+                          <div class="row">
+                            <div class="col-3">
+                              <img src="./images/ae.png" class="silver-img" alt="" />
+                            </div>
+                            <div class="col-9">
+                              <h4 class="sliver-txt">100,000 Razer Silver</h4>
+                              <span class="sub-sliver-txt">Total Prizepool divided among all placements </span>
+                            </div>
                           </div>
-                          <div class="col">
-                            <h4 class="sliver-txt">100,000 Razer Silver</h4>
-                            <span class="sub-sliver-txt">Total Prizepool divided among all placements </span>
+                        </div>
+                        <div class="card-footer">
+                          <div class="row">
+                            <div class="col"><p class="spot-left">16 spots left</p></div>
+                            <div class="col">
+                              <a class="btn silver-reg-btn" href="#">Registration now</a>
+                            </div>
                           </div>
                         </div>
                       </div>
-                      <div class="card-footer">
-                        <div class="row">
-                          <div class="col"><p class="spot-left">16 spots left</p></div>
-                          <div class="col">
-                            <a class="btn silver-reg-btn" href="#">Registration now</a>
+                    </div>
+                    <div class="col-md-3">
+                      <div class="card">
+                        <div class="img-part">
+                          <img class="card-img-top" src="./images/League-of-Legends.png" alt="" />
+                          <span class="date"><i class="fa fa-calendar" aria-hidden="true"></i> July, 26 03:05 pm</span>
+                        </div>
+                        <div class="card-body">
+                          <div class="row mb-2">
+                            <div class="col-2"><img src="./images/pngbarn.png" alt="barn" class="bran-img" /></div>
+                            <div class="col"><p class="league-txt">Leagues Of Legends From Home: Community Tournament 1v1</p></div>
+                          </div>
+                          <div class="row mb-3">
+                            <div class="col">
+                              <span class="single-text">1v1 - Single Elimination</span>
+                            </div>
+                            <div class="col card-hr-col">
+                              <img src="./images/card-hr.png" alt="" />
+                            </div>
+                          </div>
+                          <div class="row mb-3">
+                            <div class="col">
+                              <!-- <div class="dropdown">
+                                <button class="btn dropdown-toggle" type="button" id="triggerId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="./images/main-logo.png" class="dropdoown-img" alt="" /> <span class="text-uppercase run-span">Tournament Run BY</span></button>
+                                <div class="dropdown-menu" aria-labelledby="triggerId">
+                                  <button class="dropdown-item" href="#">Action</button>
+                                </div>
+                              </div> -->
+                              <div class="tournament-run-by-div">
+                                <div class="row">
+                                  <div class="col-3">
+                                    <img src="./images/starlogo.png" width="59px" alt="" />
+                                  </div>
+                                  <div class="col">
+                                    <p class="tournament-run-by-txt">Tournament Run BY</p>
+                                    <p class="tournament-star-txt">Star</p>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="col-3">
+                              <img src="./images/ae.png" class="silver-img" alt="" />
+                            </div>
+                            <div class="col-9">
+                              <h4 class="sliver-txt">100,000 Razer Silver</h4>
+                              <span class="sub-sliver-txt">Total Prizepool divided among all placements </span>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="card-footer">
+                          <div class="row">
+                            <div class="col"><p class="spot-left">16 spots left</p></div>
+                            <div class="col">
+                              <a class="btn silver-reg-btn" href="#">Registration now</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-3">
+                      <div class="card">
+                        <div class="img-part">
+                          <img class="card-img-top" src="./images/League-of-Legends.png" alt="" />
+                          <span class="date"><i class="fa fa-calendar" aria-hidden="true"></i> July, 26 03:05 pm</span>
+                        </div>
+                        <div class="card-body">
+                          <div class="row mb-2">
+                            <div class="col-2"><img src="./images/pngbarn.png" alt="barn" class="bran-img" /></div>
+                            <div class="col"><p class="league-txt">Leagues Of Legends From Home: Community Tournament 1v1</p></div>
+                          </div>
+                          <div class="row mb-3">
+                            <div class="col">
+                              <span class="single-text">1v1 - Single Elimination</span>
+                            </div>
+                            <div class="col card-hr-col">
+                              <img src="./images/card-hr.png" alt="" />
+                            </div>
+                          </div>
+                          <div class="row mb-3">
+                            <div class="col">
+                              <!-- <div class="dropdown">
+                                <button class="btn dropdown-toggle" type="button" id="triggerId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="./images/main-logo.png" class="dropdoown-img" alt="" /> <span class="text-uppercase run-span">Tournament Run BY</span></button>
+                                <div class="dropdown-menu" aria-labelledby="triggerId">
+                                  <button class="dropdown-item" href="#">Action</button>
+                                </div>
+                              </div> -->
+                              <div class="tournament-run-by-div">
+                                <div class="row">
+                                  <div class="col-3">
+                                    <img src="./images/starlogo.png" width="59px" alt="" />
+                                  </div>
+                                  <div class="col">
+                                    <p class="tournament-run-by-txt">Tournament Run BY</p>
+                                    <p class="tournament-star-txt">Star</p>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="col-3">
+                              <img src="./images/ae.png" class="silver-img" alt="" />
+                            </div>
+                            <div class="col-9">
+                              <h4 class="sliver-txt">100,000 Razer Silver</h4>
+                              <span class="sub-sliver-txt">Total Prizepool divided among all placements </span>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="card-footer">
+                          <div class="row">
+                            <div class="col"><p class="spot-left">16 spots left</p></div>
+                            <div class="col">
+                              <a class="btn silver-reg-btn" href="#">Registration now</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-3">
+                      <div class="card">
+                        <div class="img-part">
+                          <img class="card-img-top" src="./images/League-of-Legends.png" alt="" />
+                          <span class="date"><i class="fa fa-calendar" aria-hidden="true"></i> July, 26 03:05 pm</span>
+                        </div>
+                        <div class="card-body">
+                          <div class="row mb-2">
+                            <div class="col-2"><img src="./images/pngbarn.png" alt="barn" class="bran-img" /></div>
+                            <div class="col"><p class="league-txt">Leagues Of Legends From Home: Community Tournament 1v1</p></div>
+                          </div>
+                          <div class="row mb-3">
+                            <div class="col">
+                              <span class="single-text">1v1 - Single Elimination</span>
+                            </div>
+                            <div class="col card-hr-col">
+                              <img src="./images/card-hr.png" alt="" />
+                            </div>
+                          </div>
+                          <div class="row mb-3">
+                            <div class="col">
+                              <!-- <div class="dropdown">
+                                <button class="btn dropdown-toggle" type="button" id="triggerId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="./images/main-logo.png" class="dropdoown-img" alt="" /> <span class="text-uppercase run-span">Tournament Run BY</span></button>
+                                <div class="dropdown-menu" aria-labelledby="triggerId">
+                                  <button class="dropdown-item" href="#">Action</button>
+                                </div>
+                              </div> -->
+                              <div class="tournament-run-by-div">
+                                <div class="row">
+                                  <div class="col-3">
+                                    <img src="./images/starlogo.png" width="59px" alt="" />
+                                  </div>
+                                  <div class="col">
+                                    <p class="tournament-run-by-txt">Tournament Run BY</p>
+                                    <p class="tournament-star-txt">Star</p>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="col-3">
+                              <img src="./images/ae.png" class="silver-img" alt="" />
+                            </div>
+                            <div class="col-9">
+                              <h4 class="sliver-txt">100,000 Razer Silver</h4>
+                              <span class="sub-sliver-txt">Total Prizepool divided among all placements </span>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="card-footer">
+                          <div class="row">
+                            <div class="col"><p class="spot-left">16 spots left</p></div>
+                            <div class="col">
+                              <a class="btn silver-reg-btn" href="#">Registration now</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-3">
+                      <div class="card">
+                        <div class="img-part">
+                          <img class="card-img-top" src="./images/League-of-Legends.png" alt="" />
+                          <span class="date"><i class="fa fa-calendar" aria-hidden="true"></i> July, 26 03:05 pm</span>
+                        </div>
+                        <div class="card-body">
+                          <div class="row mb-2">
+                            <div class="col-2"><img src="./images/pngbarn.png" alt="barn" class="bran-img" /></div>
+                            <div class="col"><p class="league-txt">Leagues Of Legends From Home: Community Tournament 1v1</p></div>
+                          </div>
+                          <div class="row mb-3">
+                            <div class="col">
+                              <span class="single-text">1v1 - Single Elimination</span>
+                            </div>
+                            <div class="col card-hr-col">
+                              <img src="./images/card-hr.png" alt="" />
+                            </div>
+                          </div>
+                          <div class="row mb-3">
+                            <div class="col">
+                              <!-- <div class="dropdown">
+                                <button class="btn dropdown-toggle" type="button" id="triggerId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="./images/main-logo.png" class="dropdoown-img" alt="" /> <span class="text-uppercase run-span">Tournament Run BY</span></button>
+                                <div class="dropdown-menu" aria-labelledby="triggerId">
+                                  <button class="dropdown-item" href="#">Action</button>
+                                </div>
+                              </div> -->
+                              <div class="tournament-run-by-div">
+                                <div class="row">
+                                  <div class="col-3">
+                                    <img src="./images/starlogo.png" width="59px" alt="" />
+                                  </div>
+                                  <div class="col">
+                                    <p class="tournament-run-by-txt">Tournament Run BY</p>
+                                    <p class="tournament-star-txt">Star</p>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="col-3">
+                              <img src="./images/ae.png" class="silver-img" alt="" />
+                            </div>
+                            <div class="col-9">
+                              <h4 class="sliver-txt">100,000 Razer Silver</h4>
+                              <span class="sub-sliver-txt">Total Prizepool divided among all placements </span>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="card-footer">
+                          <div class="row">
+                            <div class="col"><p class="spot-left">16 spots left</p></div>
+                            <div class="col">
+                              <a class="btn silver-reg-btn" href="#">Registration now</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-3">
+                      <div class="card">
+                        <div class="img-part">
+                          <img class="card-img-top" src="./images/League-of-Legends.png" alt="" />
+                          <span class="date"><i class="fa fa-calendar" aria-hidden="true"></i> July, 26 03:05 pm</span>
+                        </div>
+                        <div class="card-body">
+                          <div class="row mb-2">
+                            <div class="col-2"><img src="./images/pngbarn.png" alt="barn" class="bran-img" /></div>
+                            <div class="col"><p class="league-txt">Leagues Of Legends From Home: Community Tournament 1v1</p></div>
+                          </div>
+                          <div class="row mb-3">
+                            <div class="col">
+                              <span class="single-text">1v1 - Single Elimination</span>
+                            </div>
+                            <div class="col card-hr-col">
+                              <img src="./images/card-hr.png" alt="" />
+                            </div>
+                          </div>
+                          <div class="row mb-3">
+                            <div class="col">
+                              <!-- <div class="dropdown">
+                                <button class="btn dropdown-toggle" type="button" id="triggerId" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="./images/main-logo.png" class="dropdoown-img" alt="" /> <span class="text-uppercase run-span">Tournament Run BY</span></button>
+                                <div class="dropdown-menu" aria-labelledby="triggerId">
+                                  <button class="dropdown-item" href="#">Action</button>
+                                </div>
+                              </div> -->
+                              <div class="tournament-run-by-div">
+                                <div class="row">
+                                  <div class="col-3">
+                                    <img src="./images/starlogo.png" width="59px" alt="" />
+                                  </div>
+                                  <div class="col">
+                                    <p class="tournament-run-by-txt">Tournament Run BY</p>
+                                    <p class="tournament-star-txt">Star</p>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="col-3">
+                              <img src="./images/ae.png" class="silver-img" alt="" />
+                            </div>
+                            <div class="col-9">
+                              <h4 class="sliver-txt">100,000 Razer Silver</h4>
+                              <span class="sub-sliver-txt">Total Prizepool divided among all placements </span>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="card-footer">
+                          <div class="row">
+                            <div class="col"><p class="spot-left">16 spots left</p></div>
+                            <div class="col">
+                              <a class="btn silver-reg-btn" href="#">Registration now</a>
+                            </div>
                           </div>
                         </div>
                       </div>
                     </div>
                   </div>
-                </div>
-              </section>
+                </section>
               </div>
             </section>
-
+          </div>
           </div>
           <!-- /.container-fluid -->
-  
+        </div>
         </div>
         <!-- End of Main Content -->
   
@@ -621,7 +2120,7 @@
         // dots: true,
         autoplay: true,
         infinite: true,
-        slidesToShow: 7,
+        slidesToShow: 6,
         slidesToScroll: 1,
         responsive: [
           {
@@ -643,6 +2142,35 @@
           // instead of a settings object
         ],
       });
+
+      $(".card-slider-nav").slick({
+        infinite: true,
+        // dots: true,
+        // autoplay: true,
+        infinite: true,
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        responsive: [
+          {
+            breakpoint: 1300,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 1,
+            },
+          },
+          {
+            breakpoint: 480,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+            },
+          },
+          // You can unslick at a given breakpoint now by adding:
+          // settings: "unslick"
+          // instead of a settings object
+        ],
+      });
+
     </script>
   </body>
 </html>
